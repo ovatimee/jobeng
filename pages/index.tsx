@@ -18,9 +18,9 @@ export default function Home() {
           <FilterNav />
           <div className="main-container flex flex-grow pt-8">
           <Aside />
-            <div className="searched-jobs">
-              <div className="searched-bar">
-                <div className="searched-show">
+            <div className="searched-jobs flex flex-col flex-grow pl-10">
+              <div className="searched-bar flex items-center justify-between animate-slideY ">
+                <div className="searched-show text-[19px] font-semibold">
                   <p> Showing 0 Jobs </p>
                 </div>
                 <div className="searched-sort">
@@ -28,31 +28,7 @@ export default function Home() {
                   <span className="menu-icon">▼</span>
                 </div>
               </div>
-              {/* <div className="job-cards"> */}
-              {/*     <div className="job-card"> */}
-              {/*       <div className="job-card-header"> */}
-              {/*         <%= card.company.toUpperCase() %> */}
-              {/*           <div className="menu-dot"></div> */}
-              {/*       </div> */}
-              {/*       <div className="job-card-title"> */}
-              {/*         <%= card.title %> */}
-              {/*       </div> */}
-              {/*       <div className="job-card-subtitle"> */}
-              {/*         <%= card.description %> */}
-              {/*       </div> */}
-              {/*       <div className="job-detail-buttons"> */}
-              {/*         <button className="search-buttons detail-button"> */}
-              {/*           <%= card.location %> */}
-              {/*         </button> */}
-              {/*         <button className="search-buttons detail-button">Full Time</button> */}
-              {/*         <!-- <button className="search-buttons detail-button">Senior Level</button> --> */}
-              {/*       </div> */}
-              {/*       <div className="job-card-buttons"> */}
-              {/*         <button className="search-buttons card-buttons">Apply Now</button> */}
-              {/*         <button className="search-buttons card-buttons-msg">Overview</button> */}
-              {/*       </div> */}
-              {/*     </div> */}
-              {/* </div> */}
+             {/* job card  */}
             </div>
           </div>
         </div>

@@ -10,40 +10,43 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model jobcard {
-  id          Int      @id @default(autoincrement())
+model Job {
+  id          Int       @id @default(autoincrement())
   title       String
   company     String
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
   location    String
   description String
   salary      Int
   type        String
   seniority   String
-  category    String
+  category    Category? @relation(fields: [categoryId], references: [id])
+  categoryId  Int?
 }
 
-model type {
+model Type {
   id    Int    @id @default(autoincrement())
   title String
 }
 
-model range {
+model Range {
   id   Int @id @default(autoincrement())
   from Int
   to   Int
 }
 
-model category {
+model Category {
   id    Int    @id @default(autoincrement())
   title String
+  jobs  Job[]
 }
 
-model User {
-  id      Int      @id @default(autoincrement())
-  email   String   @unique
-  name    String?
-  posts   Post[]
-  profile Profile?
-}
+
+// model User {
+//   id      Int      @id @default(autoincrement())
+//   email   String   @unique
+//   name    String?
+//   posts   Post[]
+//   profile Profile?
+// / }

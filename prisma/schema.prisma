@@ -25,6 +25,13 @@ model Job {
   categoryId  Int?
 }
 
+model Company {
+  id Int @id @default(autoincrement())
+  name String
+  logo String
+  location String
+}
+
 model Type {
   id    Int    @id @default(autoincrement())
   title String
@@ -41,7 +48,6 @@ model Category {
   title String
   jobs  Job[]
 }
-
 
 // model User {
 //   id      Int      @id @default(autoincrement())

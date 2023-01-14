@@ -17,11 +17,17 @@
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
     "next": "13.0.7",
+    "pg": "^8.8.0",
+    "puppeteer": "^19.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
   },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "devDependencies": {
+    "@types/pg": "^8.6.6",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.20",
     "prisma": "^4.8.0",

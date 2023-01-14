@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Aside from "./aside";
+import FilterNav from "./filterNav";
 // import type { AppProps } from 'next/app'
 import Header from "./header";
 
@@ -28,8 +30,15 @@ export default function Layout({ children, home }: Props) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Header />
-      <main>
+
+      <main className="">
+        <div className="wrapper w-full flex flex-col flex-grow scroll-smooth py-8 px-10 overflow-auto">
+          <FilterNav />
+          <div className="main-container flex flex-grow pt-8">
+            <Aside />
         {children}
+        </div>
+        </div>
       </main>
     </div>
   );

@@ -27,15 +27,22 @@ module.exports = {
         slideY: {
           "0%": { transform: "translateY(200px)" },
         },
+        slide: {
+          "0%": { transform: 'translateX(300px)', opacity: '0'}
+        },
         wiggle: {
           "0%, 100%": { transform: "rotate(-3deg)" },
           "50%": { transform: "rotate(3deg)" },
         },
       },
       animation: {
-        slideY: 'slideY 0.6s both',
-        wiggle: 'wiggle 1s ease-in-out infinite'
-      }
+        slideY: "slideY 0.6s both",
+        slide: "slide 0.6s both",
+        wiggle: "wiggle 1s ease-in-out infinite",
+      },
+      boxShadow: {
+        "3d": "-6px 0 0 0 #9b9ba5, 6px 0 0 0 #9b9ba5",
+      },
     },
   },
   plugins: [],

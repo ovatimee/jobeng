@@ -1,13 +1,15 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import type { NextApiRequest, NextApiResponse } from 'next'
+import type { NextApiRequest, NextApiResponse } from "next";
+import { conn } from "../../lib/database";
 
 type Data = {
-  name: string
-}
+  message: string;
+  time: string;
+};
 
-export default function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<Data>
-) {
-  res.status(200).json({ name: 'John Doe' })
+export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
+  const response = await conn.query("SELECT NOW()");
+  console.log(response.rows);
+
+  res.status(200).json({ message: "Pong!", time: response.rows[0].now });
 }

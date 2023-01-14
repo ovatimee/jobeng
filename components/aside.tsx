@@ -26,7 +26,7 @@ export default function Aside() {
   ]
 
   return (
-    <div className="search-type w-[270px] flex flex-col h-full flex-shrink-0">
+    <div className="search-type hidden w-[270px] md:flex flex-col h-full flex-shrink-0">
       <div className="sidebar sticky top-0 shadow-none w-full z-initial opacity-100">
         <div className="alert bg-alert-bg-color py-6 px-[18px] rounded-lg">
           <div className="alert-title text-xs font-medium mb-2">

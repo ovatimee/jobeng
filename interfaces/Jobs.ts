@@ -5,7 +5,7 @@ export interface Job {
   createdAt?: Date;
   updatedAt?: Date;
   location?: string;
-  description?: string[];
+  description?: string;
   salary?: Number;
   type?: String;
   seniority?: String;

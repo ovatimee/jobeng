@@ -6,6 +6,7 @@ interface Props {
 }
 
 export default function Card({ job }: Props) {
+  console.log(job.description.split('<br>'))
   return (
     <div className="job-card py-5 px-4 bg-header-bg-color rounded-lg  transition duration-[0.2s]  transform hover:scale-[1.02] ">
       <div className="job-card-header flex items-start">
@@ -17,7 +18,7 @@ export default function Card({ job }: Props) {
       </div>
       <Link href={`/jobs/${job.id}`}>
         <div className="job-card-subtitle text-subtitle-color text-[13px] mt-[14px] leading-6">
-          {job.description}
+          {job.description.split(' ')[0]}
         </div>
       </Link>
       <div className="job-detail-buttons ">

@@ -13,7 +13,6 @@ interface Props {
 }
 
 export default function Home({ jobs }: Props) {
-  console.log(jobs);
   return (
     <Layout>
       <Head>
@@ -43,9 +42,10 @@ export default function Home({ jobs }: Props) {
 }
 
 export const getStaticProps: GetServerSideProps = async (context) => {
-  // call api for data
-  // dobs res.json()
+  const res = await fetch("http://localhost:3000/api/jobs");
+  const jobs = await res.json();
+
   return {
-    props: { jobData },
+    props: { jobs },
   };
 };

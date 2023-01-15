@@ -7,6 +7,72 @@
     <language>en-US</language>
     <ttl>60</ttl>
     <item>
+      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0077/5144/logo.gif" type="image/png"/>
+      <title>GMass, Inc.: Post-modern sysadmin for an email automation SaaS</title>
+      <region>Anywhere in the World</region>
+      <category>DevOps and Sysadmin</category>
+      <type>Full-Time</type>
+      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0077/5144/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; GMass, Inc.
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://www.gmass.co"&gt;https://www.gmass.co&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div&gt; Hi, I'm Ajay, and I'm tired. &lt;br&gt; &lt;br&gt;For the past seven years, I've been managing 75 servers across AWS, a dozen more at various other providers, trying to keep my users' emails out of Spam, studying SPF and DMARC records, fighting with my overloaded IIS servers, tuning ridiculously complex SQL queries, figuring out how to stop my 5 TB database from growing so fast, all the while building new features and fixing bugs for my SaaS platform. &lt;br&gt; &lt;br&gt;I run GMass, a popular email automation platform. We've grown every single year and we're finally at the point where I want to offload the management of our systems onto someone else. &lt;br&gt; &lt;br&gt;&lt;strong&gt;Want to ease my pain? &lt;/strong&gt;&lt;br&gt; &lt;br&gt;First, let me tell you about the tech environment GMass is built on. 90% of our infrastructure is hosted at AWS, and 10% is hosted across several more traditional hosting companies. In total, there are about 85 servers, including lots of IIS web servers, a couple SQL Servers, one MySQL server, and a bunch of SMTP servers. Most of our backend code is in C#/.NET Standard, but our front-end, which is a Chrome extension, is JavaScript. &lt;br&gt; &lt;br&gt;The overarching goals of this position is to make sure GMass is always up and running and emails are getting delivered in a timely manner. &lt;br&gt; &lt;br&gt;&lt;strong&gt;Issues we encounter on a regular basis: &lt;/strong&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt; Our senders are overwhelmed and sending too slowly. Need to fire up some more servers. &lt;/li&gt;
+&lt;li&gt; A domain or IP has been blacklisted. Need to figure out a workaround. &lt;/li&gt;
+&lt;li&gt; An IIS server isn't responding fast enough. Diagnose. &lt;/li&gt;
+&lt;li&gt; A disk on a critical server is about to fill up. &lt;/li&gt;
+&lt;li&gt; An abuser has penetrated our network and needs to be stopped. &lt;/li&gt;
+&lt;li&gt; We've received an abuse complaint from an upstream provider, and we have 24 hours to respond. &lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt; &lt;br&gt;&lt;strong&gt;Technical skills that you should have: &lt;/strong&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt; You have a deep understanding of how email is sent &lt;/li&gt;
+&lt;li&gt; You know how to manage an IIS server &lt;/li&gt;
+&lt;li&gt; You know how to query databases. You don't need to be a full fledged DBA, but the more you know, the better. &lt;/li&gt;
+&lt;li&gt; You understand email deliverability and factors that impact it. &lt;/li&gt;
+&lt;li&gt; You have a thorough understanding of the DNS system. &lt;/li&gt;
+&lt;li&gt; You're already familiar with AWS. &lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;br&gt;There's an element of &lt;strong&gt;email deliverability&lt;/strong&gt; to this role. You should be well versed in these protocols: &lt;/div&gt;&lt;ul&gt;
+&lt;li&gt; SPF &lt;/li&gt;
+&lt;li&gt; DKIM &lt;/li&gt;
+&lt;li&gt; DMARC &lt;/li&gt;
+&lt;li&gt; SMTP &lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt; &lt;br&gt;Bonus points if you've worked with transactional email services like SendGrid, Mailgun, Mandrill, and Amazon SES. &lt;br&gt; &lt;br&gt;DevOps? &lt;br&gt; &lt;br&gt;You'll notice that this is a "sysadmin" role rather than a DevOps role. While there are elements of engineering and development that will make this role easier, it still falls better within the scope of a sysadmin role. &lt;br&gt; &lt;br&gt;&lt;strong&gt;More about me: &lt;/strong&gt;&lt;br&gt;I created GMass seven years ago, and I love the system, company, and user base. I believe GMass has a shot at becoming a tech household name. I live in Dayton, Ohio with my wife and kids. I work a lot, because I love my work. You can find me on Twitter at &lt;a href="https://twitter.com/parttimesnob"&gt;@PartTimeSnob&lt;/a&gt;. I'm on LinkedIn too but not as active there as on Twitter:  &lt;a href="https://linkedin.com/in/ajaygoel999"&gt;https://linkedin.com/in/ajaygoel999&lt;/a&gt; &lt;br&gt; &lt;br&gt;&lt;strong&gt;Ready to rescue me? &lt;/strong&gt;&lt;br&gt;I prefer you send me an email directly to ajay AT wordzen DOT com, and tell me about yourself and how you fit with this role. The subject line can be whatever you like, but please include the word "sysadmin" in it so I don't miss your email. My policy is that if you put effort into your email to me, you'll get a response from me. &lt;br&gt;&lt;br&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/gmass-inc-post-modern-sysadmin-for-an-email-automation-saas-1"&gt;https://weworkremotely.com/remote-jobs/gmass-inc-post-modern-sysadmin-for-an-email-automation-saas-1&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Sun, 15 Jan 2023 04:02:46 +0000</pubDate>
+      <expires_at>Tue, 14 Feb 2023 04:02:46 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/gmass-inc-post-modern-sysadmin-for-an-email-automation-saas-1</guid>
+      <link>https://weworkremotely.com/remote-jobs/gmass-inc-post-modern-sysadmin-for-an-email-automation-saas-1</link>
+    </item>
+    <item>
+      <title>Adviniti Ventures Ltd.: Facebook Ads - Junior Media Buyer Inhouse</title>
+      <region>Anywhere in the World</region>
+      <category>Sales and Marketing</category>
+      <type>Full-Time</type>
+      <description>
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; Cyprus
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://adviniti-ventures.com"&gt;https://adviniti-ventures.com&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div&gt;We are a Startup in the E-Commerce Space and are running multiple different Direct to Consumer Brands that rely have on Advertising on Social Media.&lt;br&gt;&lt;br&gt;For one of our Brands we are currently looking for a Junior Media Buyer - Full Time.&lt;br&gt;&lt;br&gt;Who we are looking for:&lt;br&gt;-Experience with Direct to Consumer Brands&lt;br&gt;- Basic Experience of Facebook ads ideally you have already spent around 40-50.000€/$&lt;br&gt;- Data Geek&lt;br&gt;- Experience with Creative Content for Social Media Ads (Facebook, Instagram, Tik Tok Pinterest)&lt;br&gt;- Fluent English&lt;br&gt;&lt;br&gt;What will be your daily tasks:&lt;br&gt;- Test/Scale and Launch new Facebook Ads&lt;br&gt;- Analyze with the Head Marketing Manager the Perfomance of our Content/Ads&lt;br&gt;- Come up with new Creative Content Ideas for our Social Media Ads&lt;br&gt;- Analyzing Competitors in similar niches &lt;br&gt;&lt;br&gt;When you apply for the Job please give us a brief description of what you have done before and why you are the perfect candidate for the job.&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/adviniti-ventures-ltd-facebook-ads-junior-media-buyer-inhouse"&gt;https://weworkremotely.com/remote-jobs/adviniti-ventures-ltd-facebook-ads-junior-media-buyer-inhouse&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Sat, 14 Jan 2023 22:17:51 +0000</pubDate>
+      <expires_at>Mon, 13 Feb 2023 22:17:51 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/adviniti-ventures-ltd-facebook-ads-junior-media-buyer-inhouse</guid>
+      <link>https://weworkremotely.com/remote-jobs/adviniti-ventures-ltd-facebook-ads-junior-media-buyer-inhouse</link>
+    </item>
+    <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0083/3004/logo.gif" type="image/png"/>
       <title>Institute of OM: Rails Senior Front-End Developer Wanted for fun Rails 7 apps</title>
       <region>USA Only</region>
@@ -860,30 +926,6 @@
       <link>https://weworkremotely.com/remote-jobs/arborxr-remote-devops-platform-developer-for-ar-vr-company-1</link>
     </item>
     <item>
-      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0081/7031/logo.gif" type="image/png"/>
-      <title>VEXXHOST, Inc.: Écrivain(e) de Ventes | Sales Copywriter (SaaS)</title>
-      <region>Anywhere in the World</region>
-      <category>Sales and Marketing</category>
-      <type>Full-Time</type>
-      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0081/7031/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
-
-&lt;p&gt;
-  &lt;strong&gt;Headquarters:&lt;/strong&gt; Pointe-Claire, Quebec, Canada
-    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://vexxhost.com/"&gt;https://vexxhost.com/&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;div&gt;-&amp;gt; &lt;strong&gt;Version Française&lt;/strong&gt;
-&lt;/div&gt;&lt;div&gt;VEXXHOST est une compagnie de cloud computing qui propose des OpenStack clouds publics, clouds privés et des solutions telles que Kubernetes Enablement, les mises à niveau OpenStack et les consultations.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nous recherchons un(e) écrivain(e) avec expérience de SaaS ou cloud, pour rejoindre notre équipe et créer des écritures pour notre site Web, des pages de destination, du matériel de marketing et ventes, des publications, des guides, etc. Si la personne possède les expériences suivantes, ce serait un bonus: OpenStack, écritures marketing pour e-mail et publicité. &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Un grand avantage est que vous pourrez travailler à la maison. Aussi, vous pouvez travailler si vous ne connaissez que l'anglais.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Si cela vous intéresse, vous devez soumettre votre CV. Cependant, la lettre est optionnelle, mais ce serait un bonus de nous faire savoir pourquoi vous pensez que vous seriez un bon candidat pour ce rôle.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&amp;gt; &lt;strong&gt;English Version&lt;/strong&gt;
-&lt;/div&gt;&lt;div&gt;VEXXHOST is a cloud computing company that offers OpenStack public clouds, private clouds, and managed solutions such as Kubernetes Enablement, OpenStack Upgrades and Consultations.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We are looking for a sales copywriter with SaaS or cloud experience to join our team and to write content for our website, landing pages, drafting, writing marketing and sales material, posts, guides, etc. If the individual has some of the following experience, it would be a bonus: OpenStack, email marketing, and ad writing experience. &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;One great benefit is that you would be able to work from home. Also, you can apply if you only know English. &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If this interests you, you must submit your resume in the application process. However, the cover letter is optional but it would be a bonus to let us know why you think you’d be a good fit for this role.&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/vexxhost-inc-ecrivain-e-de-ventes-sales-copywriter-saas"&gt;https://weworkremotely.com/remote-jobs/vexxhost-inc-ecrivain-e-de-ventes-sales-copywriter-saas&lt;/a&gt;&lt;/p&gt;
-</description>
-      <pubDate>Thu, 12 Jan 2023 19:05:16 +0000</pubDate>
-      <expires_at>Sat, 11 Feb 2023 19:05:16 +0000</expires_at>
-      <guid>https://weworkremotely.com/remote-jobs/vexxhost-inc-ecrivain-e-de-ventes-sales-copywriter-saas</guid>
-      <link>https://weworkremotely.com/remote-jobs/vexxhost-inc-ecrivain-e-de-ventes-sales-copywriter-saas</link>
-    </item>
-    <item>
       <title>VEXXHOST, Inc.: Développeur(e) Web NextJS | NextJS Web Developer (Tailwind)</title>
       <region>Anywhere in the World</region>
       <category>Front-End Programming</category>
@@ -1184,67 +1226,6 @@
       <link>https://weworkremotely.com/remote-jobs/alphasights-senior-fullstack-engineer-remote-brazil-2</link>
     </item>
     <item>
-      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0018/1942/logo.gif" type="image/png"/>
-      <title>Trustworthy: Full Stack Software Engineer (Python / Django / React)</title>
-      <region>Anywhere in the World</region>
-      <category>Full-Stack Programming</category>
-      <type>Full-Time</type>
-      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0018/1942/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
-
-&lt;p&gt;
-  &lt;strong&gt;Headquarters:&lt;/strong&gt; San Francisco
-    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://www.trustworthy.com"&gt;https://www.trustworthy.com&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;div&gt;We’re a venture-backed startup on the verge of creating a new category we’re calling the &lt;strong&gt;Family Operating System&lt;/strong&gt;™, and we want you on our team. At Trustworthy our mission is to keep families organized and prepared for the unexpected by delivering a secure and beautiful online service that keeps their most important information up-to-date and accessible. Trustworthy is the family’s single destination point for everything from financial accounts, life insurance policies, and estate documents to family stories, traditions, and passport numbers.&lt;br&gt;&lt;br&gt;We are seeking a seasoned &lt;strong&gt;Full Stack Developer&lt;/strong&gt; who sees software development as equal parts arts and science, has a knack for visual design and utility, and is comfortable with back end engineering.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;3+ plus years of relevant development experience.&lt;/li&gt;
-&lt;li&gt;Highly experienced in building modern web applications based on &lt;strong&gt;Python,&lt;/strong&gt; &lt;strong&gt;Django&lt;/strong&gt; &amp;amp; &lt;strong&gt;Django Rest Framework,  Flask &lt;/strong&gt;etc.&lt;/li&gt;
-&lt;li&gt;Highly experienced in building single page applications based on &lt;strong&gt;React/Redux&lt;/strong&gt;
-&lt;/li&gt;
-&lt;li&gt;3+ years of HTML/CSS experience, including concepts like layout, specificity, and cross browser compatibility&lt;/li&gt;
-&lt;li&gt;Extensive experience with SQL databases (eg. PostgreSQL)&lt;/li&gt;
-&lt;li&gt;Extensive experience with REST APIs.&lt;/li&gt;
-&lt;li&gt;Strong Unix command-line and shell scripting fundamentals (bash, grep, ssh, etc)&lt;/li&gt;
-&lt;li&gt;Hand-on experience with unit-tests, integration tests implementation, mocking.&lt;/li&gt;
-&lt;li&gt;Experience with scalable web application design patterns and micro services architecture principles.&lt;/li&gt;
-&lt;li&gt;Solid understanding of the Agile development practices and the software development lifecycle.&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;In close collaboration with Product and Design teams, ideate software solutions, and turn wireframes into effective code.&lt;/li&gt;
-&lt;li&gt;Design client-side and server-side architecture.&lt;/li&gt;
-&lt;li&gt;Build the front-end applications through appealing visual design. Build features with a mobile responsive design.&lt;/li&gt;
-&lt;li&gt;Develop and manage well-functioning databases and software solutions. Write effective RESTful APIs.&lt;/li&gt;
-&lt;li&gt;Test software to ensure responsiveness and efficiency.&lt;/li&gt;
-&lt;li&gt;Troubleshoot, debug and upgrade software. Apply your problem-solving skills to peel away the layers to understand the core issue and address it with elegant solutions.&lt;/li&gt;
-&lt;li&gt;Keep current with key industry trends and developments that can be applied to Company’s needs.&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;Preferred qualifications, but not required:&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Experience with automation tools and frameworks.&lt;/li&gt;
-&lt;li&gt;Infrastructure / DevOps experience (continuous integration setup, deploying and running applications in a test and production environment etc.)&lt;/li&gt;
-&lt;li&gt;Experience with Docker and CI/CD using GitHub Actions.&lt;/li&gt;
-&lt;li&gt;Amazon Web Services (AWS) experience.&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;strong&gt;Healthcare benefits&lt;/strong&gt; - 80% for you, 60% for your family. Medical, dental, vision.&lt;/li&gt;
-&lt;li&gt;
-&lt;strong&gt;Equity benefits&lt;/strong&gt; - Generous equity in the company you're helping to build.&lt;/li&gt;
-&lt;li&gt;
-&lt;strong&gt;Generous vacation&lt;/strong&gt; - Unlimited vacations. No one can work all the time.&lt;/li&gt;
-&lt;li&gt;
-&lt;strong&gt;Home office setup&lt;/strong&gt; - Set up your work environment and make it work with a sitting/standing desk + all the HW and SW you need. 100% on us.&lt;/li&gt;
-&lt;li&gt;
-&lt;strong&gt;Annual team meetings&lt;/strong&gt; - Team cultural events online and in person. We're remote but we're not distant ;-)&lt;/li&gt;
-&lt;li&gt;
-&lt;strong&gt;Birthdays off!&lt;/strong&gt; - We celebrate your birth and you take the day to enjoy and relax.&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/trustworthy-full-stack-software-engineer-python-django-react-1"&gt;https://weworkremotely.com/remote-jobs/trustworthy-full-stack-software-engineer-python-django-react-1&lt;/a&gt;&lt;/p&gt;
-</description>
-      <pubDate>Thu, 12 Jan 2023 17:14:39 +0000</pubDate>
-      <expires_at>Sat, 11 Feb 2023 17:14:39 +0000</expires_at>
-      <guid>https://weworkremotely.com/remote-jobs/trustworthy-full-stack-software-engineer-python-django-react-1</guid>
-      <link>https://weworkremotely.com/remote-jobs/trustworthy-full-stack-software-engineer-python-django-react-1</link>
-    </item>
-    <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0083/2871/logo.gif" type="image/png"/>
       <title>Click Fluency: Agency Organized &amp; Relational Account Supervisor- Remote/Full-Time</title>
       <region>USA Only</region>
@@ -1447,91 +1428,6 @@
       <expires_at>Sat, 11 Feb 2023 11:18:01 +0000</expires_at>
       <guid>https://weworkremotely.com/remote-jobs/praxis-continuing-education-and-training-wanted-jack-jill-of-all-trades-to-coordinate-production-of-our</guid>
       <link>https://weworkremotely.com/remote-jobs/praxis-continuing-education-and-training-wanted-jack-jill-of-all-trades-to-coordinate-production-of-our</link>
-    </item>
-    <item>
-      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0083/2850/logo.gif" type="image/png"/>
-      <title>Toggl: Sales Development Representative (Americas)</title>
-      <region>Anywhere in the World</region>
-      <category>Sales and Marketing</category>
-      <type>Full-Time</type>
-      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0083/2850/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
-
-&lt;p&gt;
-  &lt;strong&gt;Headquarters:&lt;/strong&gt; Tallin
-    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://toggl.com/jobs/"&gt;https://toggl.com/jobs/&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;div&gt;
-&lt;br&gt;&lt;strong&gt;&lt;br&gt;Job Description&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;We are looking for proactive and self-driven Sales Development Representatives to fuel our growth through new customer acquisition. If you’re a reliable professional who can balance customer orientation and a results-driven approach, we’d like to meet you.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;The base salary for this position is &lt;strong&gt;$35,000-$40,000&lt;/strong&gt; (plus uncapped variable) with &lt;strong&gt;On-target earnings estimated at $55,000&lt;/strong&gt;. OTE for the role depends on your target market (not your location).&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;You can work &lt;strong&gt;from anywhere in the Central/Eastern US time zone.&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;
-&lt;strong&gt;&lt;br&gt;About the Team&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;We are a global team of 100+ awesome people working from over 40 countries around the globe. We hire globally, you work locally - in the heart of London, a beach outside of São Paulo, or a quiet village near Florence, the choice is yours. We place a huge amount of trust in our people, and we measure the outcomes rather than the work itself. Our values fuel our results.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;&lt;strong&gt;&lt;br&gt;The Role&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;We have a great product used by tens of thousands of companies. Historically, most of our customers purchased self-service. Our leading position in the market attracts companies of all sizes.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;As a Sales Development Representative, your mission will be to qualify Midsize and Enterprise company leads for your Account Executives, helping them build their pipeline. You’ll also be closing your own small business deals: this is like a Junior AE role, fast-tracking you for an AE promotion in a small, flexible and scaling sales team.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;Your target market will be &lt;strong&gt;North America&lt;/strong&gt; and you should be located in a country that your normal working hours &lt;strong&gt;cover all your target market’s time zones.&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;Your main responsibilities will be:&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Reach out to prospects by email and phone&lt;/li&gt;
-&lt;li&gt;Qualify inbound or outbound leads&lt;/li&gt;
-&lt;li&gt;Create a positive first impression with our prospects and customers by providing a world-class experience&lt;/li&gt;
-&lt;li&gt;Learn more about prospects, understand their goals and decide if they are a good fit&lt;/li&gt;
-&lt;li&gt;Create opportunities and next steps for Account Executives&lt;/li&gt;
-&lt;li&gt;Use our tech stack to log your sales activity and monitor your performance&lt;/li&gt;
-&lt;li&gt;Sell the value of Toggl Track and assist small teams with purchasing.&lt;/li&gt;
-&lt;li&gt;Build and maintain a pre-sales pipeline&lt;/li&gt;
-&lt;li&gt;Identify key decision-makers, work together with an AE to close the deal&lt;/li&gt;
-&lt;li&gt;Meet Key Performance Indicators (KPI's) for sales-based activities&lt;/li&gt;
-&lt;li&gt;Use your natural curiosity, communication skills, and ambition to improve the performance of yourself and the team.&lt;/li&gt;
-&lt;li&gt;Share learnings around customer needs and challenges with the broader team to drive product and business decisions&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;strong&gt;&lt;br&gt;About you/Requirements&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;We would love to hear from you if your catchword is &lt;em&gt;Persistence&lt;/em&gt; and **you are results-driven, eager to seek constant progress and believe in continuous learning and evolving.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;In particular, we are looking for:&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Excellent communication skills, both verbal and written&lt;/li&gt;
-&lt;li&gt;A strong desire to start a sales career&lt;/li&gt;
-&lt;li&gt;Enthusiasm for the new technologies and a desire to learn and continuously improve&lt;/li&gt;
-&lt;li&gt;High energy, self starter and a positive attitude&lt;/li&gt;
-&lt;li&gt;Ability to prioritize, multitask, and manage time productively&lt;/li&gt;
-&lt;li&gt;Patience, empathy and persistence in a customer-facing context&lt;/li&gt;
-&lt;li&gt;Diligence and enthusiasm; you appreciate quality and deliver it on a daily basis&lt;/li&gt;
-&lt;li&gt;Team spirit; you seriously care about what you do and appreciate collaborating with your colleagues&lt;/li&gt;
-&lt;li&gt;Bachelor's degree or higher&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;br&gt;Bonus points for:&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Understanding of the SaaS, technology or recruiting industry&lt;/li&gt;
-&lt;li&gt;Interest in solving challenges and having an impact in new team campaigns and initiatives&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;&lt;br&gt;Benefits&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Freedom to choose when and how much you work - we only measure results&lt;/li&gt;
-&lt;li&gt;24 days of paid time off a year, plus your local holidays&lt;/li&gt;
-&lt;li&gt;In-person meetups for team-building (expenses covered)&lt;/li&gt;
-&lt;li&gt;4-6 weeks paid sabbatical (depending on the tenure)&lt;/li&gt;
-&lt;li&gt;Laptop budget up to €2,500 and it renews every 3 years&lt;/li&gt;
-&lt;li&gt;€2,000 budget to set up your home office, and additional €300 every year after 3 years of tenure&lt;/li&gt;
-&lt;li&gt;€250 per month for co-working space membership and/or internet service at home&lt;/li&gt;
-&lt;li&gt;€4,000 per year contribution to use for training, workshops, and conferences&lt;/li&gt;
-&lt;li&gt;€2,000 per year contribution for any equipment or services to improve and/or maintain your physical and mental health&lt;/li&gt;
-&lt;li&gt;Support for buying tools you need for doing your best work (even eyeglasses if you need a new pair)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/toggl-sales-development-representative-americas-2"&gt;https://weworkremotely.com/remote-jobs/toggl-sales-development-representative-americas-2&lt;/a&gt;&lt;/p&gt;
-</description>
-      <pubDate>Thu, 12 Jan 2023 11:11:29 +0000</pubDate>
-      <expires_at>Sat, 11 Feb 2023 11:11:29 +0000</expires_at>
-      <guid>https://weworkremotely.com/remote-jobs/toggl-sales-development-representative-americas-2</guid>
-      <link>https://weworkremotely.com/remote-jobs/toggl-sales-development-representative-americas-2</link>
     </item>
     <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0083/2781/logo.gif" type="image/png"/>
@@ -2014,52 +1910,6 @@
       <expires_at>Thu, 09 Feb 2023 14:37:42 +0000</expires_at>
       <guid>https://weworkremotely.com/remote-jobs/upright-labs-operations-associate-3</guid>
       <link>https://weworkremotely.com/remote-jobs/upright-labs-operations-associate-3</link>
-    </item>
-    <item>
-      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0083/2621/logo.gif" type="image/png"/>
-      <title>Aldrin: Senior Software Engineer (Rust, Remote)</title>
-      <region>Europe Only</region>
-      <category>Back-End Programming</category>
-      <type>Full-Time</type>
-      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0083/2621/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
-
-&lt;p&gt;
-  &lt;strong&gt;Headquarters:&lt;/strong&gt; UK
-    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="http://aldrin.com"&gt;http://aldrin.com&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;div&gt;&lt;strong&gt;Please Note: This is a fully remote role, for candidates based anywhere in Europe.&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;
-&lt;strong&gt;The Role&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;We’re looking for a Senior Software Engineer that will build and support the infrastructure that drives the next generation of our products and services.&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;&lt;strong&gt;About Aldrin Labs&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;There is a steep learning curve when it comes to crypto. Only once overcome will we have mass adoption. Aldrin Labs aims to debunk the belief that decentralized finance is inherently complex and separate from centralized finance. We will amend the frustratingly poor user experience and fragmentation that millions of crypto natives and newcomers face. We will seamlessly merge the centralized and decentralized world.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;Aldrin Labs aims to be purposeful. We strive to halve the fifty working years of the average person. This is the mission of Aldrin Labs.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;Aldrin Labs has Aldrin DEX and is incubating an innovative crypto DeFi wallet, money market, NFT marketplace, and other products. These protocols will integrate with each other to provide easy functionality and purposefully help people achieve financial freedom.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;Aldrin Labs is a fully remote company. We are interested in capturing the best talent, no matter where you live.&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;&lt;strong&gt;Requirements&lt;/strong&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;5+ years of working experience in software development&lt;/li&gt;
-&lt;li&gt;Strong proficiency in Rust, with 3+ years of working experience&lt;/li&gt;
-&lt;li&gt;Advanced knowledge and experience with AWS Cloud Platform&lt;/li&gt;
-&lt;li&gt;Understanding the concept of Infrastructure-as-Code and experience with tools like Terraform&lt;/li&gt;
-&lt;li&gt;An interest in the blockchain or cryptocurrency space is always a plus&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;br&gt;&lt;strong&gt;Benefits&lt;/strong&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Competitive salary&lt;/li&gt;
-&lt;li&gt;100% remote work, with no geographical restrictions&lt;/li&gt;
-&lt;li&gt;Flexible working hours&lt;/li&gt;
-&lt;li&gt;Collaboration with leading projects and thought leaders in the crypto space&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;em&gt;At Aldrin Labs, we celebrate a truly diverse and inclusive company culture and are committed to equal employment opportunities regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, or gender identity.&lt;br&gt;&lt;/em&gt;&lt;br&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/aldrin-senior-software-engineer-rust-remote"&gt;https://weworkremotely.com/remote-jobs/aldrin-senior-software-engineer-rust-remote&lt;/a&gt;&lt;/p&gt;
-</description>
-      <pubDate>Tue, 10 Jan 2023 13:35:38 +0000</pubDate>
-      <expires_at>Thu, 09 Feb 2023 13:35:38 +0000</expires_at>
-      <guid>https://weworkremotely.com/remote-jobs/aldrin-senior-software-engineer-rust-remote</guid>
-      <link>https://weworkremotely.com/remote-jobs/aldrin-senior-software-engineer-rust-remote</link>
     </item>
     <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0083/2616/logo.gif" type="image/png"/>
@@ -2632,69 +2482,6 @@
       <link>https://weworkremotely.com/remote-jobs/aldrin-senior-front-end-developer-remote</link>
     </item>
     <item>
-      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0000/0069/logo.gif" type="image/png"/>
-      <title>Knack: Senior Platform Engineer</title>
-      <region>USA Only</region>
-      <category>DevOps and Sysadmin</category>
-      <type>Full-Time</type>
-      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0000/0069/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
-
-&lt;p&gt;
-  &lt;strong&gt;Headquarters:&lt;/strong&gt; US
-    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://knack.com"&gt;https://knack.com&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;div&gt;We’re looking for someone to increase our development velocity by collaborating closely with our development and cloud teams to create and maintain our internal development platform.&lt;/div&gt;&lt;div&gt;&lt;strong&gt;&lt;br&gt;Key Responsibilities &lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Create integration libraries between our back-end code and our SaaS solutions (AWS API, Terraform Cloud API, New Relic, and more)&lt;/li&gt;
-&lt;li&gt;Help suggest and implement TypeScript best practices within our Front-end and Back-end codebases&lt;/li&gt;
-&lt;li&gt;Split shared functionality out of our codebases and into internal libraries, helping write usage and contribution documentation&lt;/li&gt;
-&lt;li&gt;Refactor backend and frontend code to more natively integrate with our primary AWS services, such as Parameter Store, Secrets Manager, CloudWatch, and more&lt;/li&gt;
-&lt;li&gt;Collaborate with our cloud team to deprecate and replace in-house tooling with AWS-managed solutions&lt;/li&gt;
-&lt;li&gt;Help in our efforts to break apart our monolithic API into a more loosely-coupled architecture, focusing primarily on shared functionality and routing&lt;/li&gt;
-&lt;li&gt;Help create dashboards and internal tooling so that our customers can have more control over their Knack app’s, and our developers can increase their own development velocity.&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;&lt;br&gt;Skills Knowledge and Expertise &lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;An expert in TypeScript/JavaScript software development with a history of keeping up with best practices in the industry&lt;/li&gt;
-&lt;li&gt;Experienced with AWS development, or has a strong interest in learning quickly on the job&lt;/li&gt;
-&lt;li&gt;Experienced with CI/CD and testing best practices, or has a strong interest in learning quickly on the job&lt;/li&gt;
-&lt;li&gt;Interested in being a strong bridge between Cloud and Development: mentoring our cloud engineers to be better developers, and being an advocate for cloud-oriented solutions within engineering&lt;/li&gt;
-&lt;li&gt;Interested in learning more about all aspects of the codebase: from code to container, from CI/CD to AWS.&lt;/li&gt;
-&lt;li&gt;Comfortable working with multiple teams on tasks and taking the lead to see projects through to completion&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;br&gt;&lt;strong&gt;Our Stack &lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;Our stack is evolving over the next year and we’d love you to be a part of that! &lt;br&gt;Currently we’re using:&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;strong&gt;Back-end: &lt;/strong&gt;JavaScript/TypeScript, Node.js, ES6, GoLang&lt;/li&gt;
-&lt;li&gt;
-&lt;strong&gt;Data:&lt;/strong&gt; Aurora PostgreSQL, Redis, ElasticSearch&lt;/li&gt;
-&lt;li&gt;
-&lt;strong&gt;DevOps &amp;amp; Deployment:&lt;/strong&gt; All things AWS, Terraform (and Terraform Cloud), Jenkins, Github, Grafana, GrayLog&lt;/li&gt;
-&lt;li&gt;
-&lt;strong&gt;Testing:&lt;/strong&gt; Playwright, Mocha, Jest&lt;/li&gt;
-&lt;li&gt;
-&lt;strong&gt;Front-end:&lt;/strong&gt; Vue.js, Webpack, SCSS&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;br&gt;✨ &lt;strong&gt;Benefits&lt;/strong&gt; ✨ &lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;The biggest benefit of Knack is getting to work alongside our awesome team of Knackleheads. We're a funny, humble, talented team of delightful human beings that, above all, enjoy working with each other, growing with each other, and supporting each other.&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;These benefits aren't that bad either, though:&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;🕧 &lt;strong&gt;Define your work&lt;/strong&gt;: find the location, environment, and schedule that is best for your life and work. It's not about separation, it's about optimization. Our only rule is an overlap zone of 11am to 4pm EST.&lt;/li&gt;
-&lt;li&gt;🌏 &lt;strong&gt;Unlimited Paid Vacation&lt;/strong&gt;: take the time you need to stay motivated, charged, and balanced. You'll get required days off for birthdays and knackiversaries.&lt;/li&gt;
-&lt;li&gt;🛫 &lt;strong&gt;Paid Corporate Retreats&lt;/strong&gt;: we get together twice a year at amazing locations to do normal human being things in person. We pay for your flight, lodging, and meals.&lt;/li&gt;
-&lt;li&gt;🚑 &lt;strong&gt;HealthCare&lt;/strong&gt;: we offer health, vision, and dental, covering 75% of the premium for you and your dependents (spouse + children).&lt;/li&gt;
-&lt;li&gt;💵 &lt;strong&gt;401(k): &lt;/strong&gt;we give you the option to automatically deduct funds from your pay to stash them away for your golden years (currently non-matching, but stay tuned!)&lt;/li&gt;
-&lt;li&gt;☮ &lt;strong&gt;Equal opportunity&lt;/strong&gt;: we push everyone to maximize their impact on our product and company--we strongly value all of our people, regardless of title or seniority.&lt;/li&gt;
-&lt;li&gt;🧠 &lt;strong&gt;Learning Credits&lt;/strong&gt; - An annual allowance is provided to stay on top of your game with classes, books, and conferences.&lt;/li&gt;
-&lt;li&gt;💓 &lt;strong&gt;Family support&lt;/strong&gt;: we offer a generous paid family leave to welcome any new additions to your family.&lt;/li&gt;
-&lt;li&gt;💻 &lt;strong&gt;Tech&lt;/strong&gt;: we provide a top-of-the-line MacBook.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/knack-senior-platform-engineer-2"&gt;https://weworkremotely.com/remote-jobs/knack-senior-platform-engineer-2&lt;/a&gt;&lt;/p&gt;
-</description>
-      <pubDate>Mon, 09 Jan 2023 13:37:59 +0000</pubDate>
-      <expires_at>Wed, 08 Feb 2023 13:37:59 +0000</expires_at>
-      <guid>https://weworkremotely.com/remote-jobs/knack-senior-platform-engineer-2</guid>
-      <link>https://weworkremotely.com/remote-jobs/knack-senior-platform-engineer-2</link>
-    </item>
-    <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0083/2524/logo.gif" type="image/png"/>
       <title>Semaphore: Developer Evangelist</title>
       <region>Latin America Only</region>
@@ -2818,58 +2605,6 @@
       <expires_at>Wed, 08 Feb 2023 09:59:32 +0000</expires_at>
       <guid>https://weworkremotely.com/remote-jobs/appy-ventures-react-native-developer</guid>
       <link>https://weworkremotely.com/remote-jobs/appy-ventures-react-native-developer</link>
-    </item>
-    <item>
-      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0074/7299/logo.gif" type="image/png"/>
-      <title>Data Virtuality GmbH: DevOps Engineer</title>
-      <region>EMEA Only</region>
-      <category>DevOps and Sysadmin</category>
-      <type>Full-Time</type>
-      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0074/7299/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
-
-&lt;p&gt;
-  &lt;strong&gt;Headquarters:&lt;/strong&gt; Leipzig, Germany
-    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://datavirtuality.com/en/careers/"&gt;https://datavirtuality.com/en/careers/&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;div&gt;&lt;strong&gt;We would love to be your new team!&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Working at Data Virtuality means being part of an international team and thriving. What we offer is remote work from your home, wherever it is. Further, you can expect an unlimited long-term contract with a full-time job, benefits, and genuine team spirit.&lt;/div&gt;&lt;div&gt;At Data Virtuality, you will experience respectful interactions, harmonious teamwork,&lt;/div&gt;&lt;div&gt;without a dog-eat-dog mentality!&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;What our fantastic team of freelancers worldwide loves about working with Data Virtuality:&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;A stable and reliable job with the freedom and flexibility of a freelancer&lt;/li&gt;
-&lt;li&gt;Fast and dependable monthly payment – in EUR, USD, Crypto, as you prefer&lt;/li&gt;
-&lt;li&gt;Contributing to the success of a growing company&lt;/li&gt;
-&lt;li&gt;Developing a groundbreaking data technology and working with cutting-edge technologies&lt;/li&gt;
-&lt;li&gt;Knowledgeable and approachable C-Level&lt;/li&gt;
-&lt;li&gt;Continuity and growth potential&lt;/li&gt;
-&lt;li&gt;Friendly and international colleagues&lt;/li&gt;
-&lt;li&gt;Full integration into our teams and invitations for our team events worldwide&lt;/li&gt;
-&lt;li&gt;If you want, possibility to relocate to Germany after min. five years of a great collaboration&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;As a “DevOps Engineer” you will be:&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;
-&lt;strong&gt;TRANSFORMER&lt;/strong&gt; – You will help our company with Cloud SaaS transformation by advancing CI/CD processes. You will be responsible to allow new ways of software delivery to customers (e.g. DockerHub, etc.).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;
-&lt;strong&gt;CONFIGURATOR&lt;/strong&gt; – You are responsible for the setup and the configuration of Clustering and Load Balancing. You will manage AWS, Azure and GCP environments. Your range of activities will also include configuring and maintaining the internal hardware and software infrastructure based on Linux and Windows Stacks.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;
-&lt;strong&gt;ENHANCER&lt;/strong&gt; – You are the driver for increasing our overall team productiveness by automating manual processes in the internal and external development systems.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;SMART. HANDS-ON. MULTI-TALENTED. &lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Your tech stack:&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Must have&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Work experience with ELK stack, Graylog, and Grafana&lt;/li&gt;
-&lt;li&gt;Knowledge of application servers like WildFly, JBoss, Tomcat&lt;/li&gt;
-&lt;li&gt;Knowledge of virtualization and containerization solutions like Docker, Vagrant&lt;/li&gt;
-&lt;li&gt;Knowledge and experience with provisioning and automatization tools like Chef, Ansible, Puppet&lt;/li&gt;
-&lt;li&gt;Knowledge of CI tools like Jenkins&lt;/li&gt;
-&lt;li&gt;Experience in development in AWS API programming&lt;/li&gt;
-&lt;li&gt;Design patterns and agile software development (Scrum,Kanban)&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nice-to-have&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Experience with Kubernetes&lt;/li&gt;
-&lt;li&gt;Certifications in Linux, AWS, DevOps&lt;/li&gt;
-&lt;li&gt;Consulting customers on software deployment and configuration (e.g. Load Balancing, Clustering, etc.)&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Your personal stack:&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Fluently spoken and written English is a must-have criterion&lt;/li&gt;
-&lt;li&gt;Analytical thinking and number-based approach&lt;/li&gt;
-&lt;li&gt;Being a team player, but also being able to solve problems independently with an inquiring mindset and an approved self-organized working method&lt;/li&gt;
-&lt;li&gt;Generally very good communication and empathic behavior&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Our Tech Stack&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Backend: J2EE application running in a JBoss/WildFly container to connect to any kind of&lt;/div&gt;&lt;div&gt;data source (relational/NoSQL/cloud based databases, web services, text files, etc.) and to&lt;/div&gt;&lt;div&gt;query data by using SQL. Persistence layers and internal configurations are delegated to&lt;/div&gt;&lt;div&gt;Hibernate.&lt;/div&gt;&lt;div&gt;Frontend (Desktop): Desktop Application based on Eclipse RCP&lt;/div&gt;&lt;div&gt;Frontend (Web): several Web applications based on Angular&lt;/div&gt;&lt;div&gt;Operating System: Linux, Microsoft Windows, macOs&lt;/div&gt;&lt;div&gt;Languages: Java 11, C, C++, TypeScript, SQL, XML&lt;/div&gt;&lt;div&gt;Databases: Oracle, PostgreSQL, MySQL, MS SQL Server, Amazon Redshift, Snowflake,&lt;/div&gt;&lt;div&gt;Microsoft Azure Synapse Analytics, Exasol, Teradata, Vertica, MongoDB, etc.&lt;/div&gt;&lt;div&gt;Others: Web Services, JDBC, ODBC, REST, OData, LDAP&lt;/div&gt;&lt;div&gt;IDE: IntelliJ IDEA, Eclipse&lt;/div&gt;&lt;div&gt;Framework: Eclipse Rich Client Platform, JUnit, Spring, Hibernate, Angular, JQuery&lt;/div&gt;&lt;div&gt;Application Servers: WildFly, JBoss&lt;/div&gt;&lt;div&gt;Cloud Technologies: Amazon Web Services, Microsoft Azure, Google Cloud Platform&lt;/div&gt;&lt;div&gt;Development, Building, Versioning tools: Maven, Ant, Git&lt;/div&gt;&lt;div&gt;Dev and CI tools: Jira, FishEye, BitBucket, GitLab, Crucible, Confluence, Jenkins&lt;/div&gt;&lt;div&gt;Virtualization and Containers: Docker, VirtualBox, VMware, Vagrant&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/data-virtuality-gmbh-devops-engineer"&gt;https://weworkremotely.com/remote-jobs/data-virtuality-gmbh-devops-engineer&lt;/a&gt;&lt;/p&gt;
-</description>
-      <pubDate>Mon, 09 Jan 2023 08:47:25 +0000</pubDate>
-      <expires_at>Wed, 08 Feb 2023 08:47:25 +0000</expires_at>
-      <guid>https://weworkremotely.com/remote-jobs/data-virtuality-gmbh-devops-engineer</guid>
-      <link>https://weworkremotely.com/remote-jobs/data-virtuality-gmbh-devops-engineer</link>
     </item>
     <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0077/5523/logo.gif" type="image/png"/>
@@ -3068,55 +2803,6 @@
       <expires_at>Sun, 05 Feb 2023 14:08:28 +0000</expires_at>
       <guid>https://weworkremotely.com/remote-jobs/podia-creator-support-agent-eastern-time-tuesday-saturday-remote</guid>
       <link>https://weworkremotely.com/remote-jobs/podia-creator-support-agent-eastern-time-tuesday-saturday-remote</link>
-    </item>
-    <item>
-      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0083/2352/logo.gif" type="image/png"/>
-      <title>Soflyy: Customer Support Representative</title>
-      <region>Anywhere in the World</region>
-      <category>Customer Support</category>
-      <type>Contract</type>
-      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0083/2352/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
-
-&lt;p&gt;
-  &lt;strong&gt;Headquarters:&lt;/strong&gt; California
-    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://soflyy.com"&gt;https://soflyy.com&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;h1&gt;Now Hiring - Customer Support Representative&lt;/h1&gt;&lt;div&gt;$30 per hour, 20 hours per week, with the possibility of more hours in the future.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;Our team is 100% remote and distributed across the world. We have team members in Australia, the US, Canada, Thailand, Germany, Argentina, South Africa, the UK, and Romania. It doesn't matter where you live or what time zone you're in.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;Your main responsibility will be to reply to customers asking for help with Breakdance. You need to love to help others and be able to keep it friendly even when dealing with difficult customers. You need to enjoy the whole process of turning anxious, confused, or angry customers into happy ones. You must be an excellent writer. We want our support replies to be friendly, easy to understand, and concise.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;
-&lt;strong&gt;Flexibility&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;We are a small team but we try to give everyone as much flexibility as possible. Flexibility means that you can work in the mornings, or the evenings, or both, or in the middle of the night, or whatever. It means you can take two weeks off to go on a trip. It means you can wake up and decide you don't feel like working and take the day off without telling anyone.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;We aim to be as asynchronous as possible. We don’t do meetings. You will have a list of prioritized tasks assigned to you, and we'll do our absolute best to leave you alone so that you can work on them in peace on your own time.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;These do a good job describing how we work:&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=fXdsmvaXx78"&gt;https://www.youtube.com/watch?v=fXdsmvaXx78&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://world.hey.com/jason/the-presence-prison-69608e0f"&gt;https://world.hey.com/jason/the-presence-prison-69608e0f&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;As a remote company, it's important to us to keep a strong line between our personal life and our work. Some places like to tell their employees they are joining a family. They have regular events unrelated to work like social chat rooms, hangouts over Zoom, etc. This is just another way for these companies to emotionally manipulate people into doing more work. You have an actual family and working with Soflyy means you can organize your work around the rest of your life, using your time as you see fit.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;For most of us here, that is the primary draw. We have a lot of people who have worked here for many years. Our employee attrition rate is approximately zero, and we think the flexibility we offer is the primary reason.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Responding to customer support inquiries via email&lt;/li&gt;
-&lt;li&gt;Adding to and improving our documentation&lt;/li&gt;
-&lt;li&gt;Aggregating customer feedback and assisting us with development/product roadmap decisions&lt;/li&gt;
-&lt;li&gt;Writing concise bug reports based on support tickets that are a result of bugs in Breakdance&lt;/li&gt;
-&lt;li&gt;Testing development versions of Breakdance&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;strong&gt;Requirements&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;The only thing we care about is the ability to provide high-quality customer support to our clients. The more of these boxes you can tick the better, in descending order of importance:&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Minimum availability of 20 hours per week.&lt;/li&gt;
-&lt;li&gt;Flawless written English.&lt;/li&gt;
-&lt;li&gt;Expert-level WordPress knowledge. Extensive experience with WordPress including troubleshooting, debugging, plugin development, and WordPress database structure.&lt;/li&gt;
-&lt;li&gt;Fast and hands-on learner. Able to quickly become familiar with our software and learn new things about WordPress and related technologies.&lt;/li&gt;
-&lt;li&gt;Experience with visual site/page builder plugins like Oxygen, Elementor, Divi, Beaver Builder, Bricks, or Breakdance.&lt;/li&gt;
-&lt;li&gt;Familiarity with HTML, CSS, and JavaScript.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/soflyy-customer-support-representative"&gt;https://weworkremotely.com/remote-jobs/soflyy-customer-support-representative&lt;/a&gt;&lt;/p&gt;
-</description>
-      <pubDate>Thu, 05 Jan 2023 19:39:27 +0000</pubDate>
-      <expires_at>Sat, 04 Feb 2023 19:39:27 +0000</expires_at>
-      <guid>https://weworkremotely.com/remote-jobs/soflyy-customer-support-representative</guid>
-      <link>https://weworkremotely.com/remote-jobs/soflyy-customer-support-representative</link>
     </item>
     <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0083/2326/logo.gif" type="image/png"/>
@@ -3415,77 +3101,134 @@
       <link>https://weworkremotely.com/remote-jobs/testgorilla-growth-product-manager-3</link>
     </item>
     <item>
-      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0077/5904/logo.gif" type="image/png"/>
-      <title>TestGorilla: Senior Product Manager</title>
-      <region>Anywhere in the World</region>
-      <category>Product</category>
+      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0001/6223/logo.gif" type="image/png"/>
+      <title>silverorange: Android Native App Developer</title>
+      <region>Canada Only</region>
+      <category>Full-Stack Programming</category>
       <type>Full-Time</type>
-      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0077/5904/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
+      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0001/6223/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
 
 &lt;p&gt;
-  &lt;strong&gt;Headquarters:&lt;/strong&gt; Amsterdam
-    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://www.testgorilla.com/"&gt;https://www.testgorilla.com/&lt;/a&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; Charlottetown, PE
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://www.silverorange.com/"&gt;https://www.silverorange.com/&lt;/a&gt;
 &lt;/p&gt;
 
-&lt;div&gt;Hi,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;I’m Claudia, the Head of Product at TestGorilla. We’re a fast-growing &lt;a href="https://www.testgorilla.com/"&gt;HR tech startup&lt;/a&gt; that helps teams make better hiring decisions faster and bias-free.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Over the past year, we’ve experienced tremendous growth. More than 8,000 companies have replaced CVs with our assessments to screen candidates in an unbiased and data-driven way. &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;As we scale our efforts in 2023 and beyond, we’re looking for a &lt;strong&gt;Senior Product Manager &lt;/strong&gt;who’s passionate about building amazing product experiences and helping people land dream jobs. &lt;/div&gt;&lt;div&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;h1&gt;&lt;strong&gt;What’s in it for you?&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;Helping shape a fast-growing HR tech startup as an early employee&lt;/li&gt;
-&lt;li&gt;Fully remote position with bright, motivated, and friendly colleagues around the world &lt;/li&gt;
-&lt;li&gt;Competitive salary + Share appreciation rights (SARs)&lt;/li&gt;
-&lt;li&gt;Flexible hours and vacation&lt;/li&gt;
-&lt;li&gt;Paid parental leave &lt;/li&gt;
-&lt;li&gt;Remote working budget: €1,000 per year&lt;/li&gt;
-&lt;li&gt;Learning and development budget: 3.5% of salary&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h1&gt;The job in a nutshell&lt;/h1&gt;&lt;div&gt;As a&lt;strong&gt; Senior Product Manager,&lt;/strong&gt; you’ll be responsible for creating and shipping products that help hundreds of thousands of users around the world land their dream job. &lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;Together with a cross-functional team, you’ll take ownership of translating our product vision and strategy into a roadmap, ensure seamless product delivery and drive feedback loops on what has been shipped. &lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;Your goal is to give our customers and their candidates the best experience possible out there! This is an amazing opportunity for a product manager that is looking to embark on an entrepreneurial journey and is ready to put a dent in the universe! &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h1&gt;&lt;strong&gt;You’ll spend time on the following:&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;Define a vision, strategy and roadmap that drives maximum impact for your area of the customer and candidate experience. &lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://www.testgorilla.com/test-library/role-specific-skills-tests/product-owner-test/"&gt;Drive product execution&lt;/a&gt;: gather requirements, define functionality, set goals, deliver with your team against these goals, resolve quality issues.&lt;/li&gt;
-&lt;li&gt;Work with cross-functional stakeholders (Customer Success, Sales, Marketing, etc.). to factor their requirements into product decisions.&lt;/li&gt;
-&lt;li&gt;Talk to users on a regular basis: our customers that create assessments as well as candidates taking the assessment.&lt;/li&gt;
-&lt;li&gt;Leverage data and user insights to create solutions that satisfy and solve user needs.&lt;/li&gt;
-&lt;li&gt;Create clear and thoughtful documentation that can easily be understood and used by both technical and non-technical stakeholders.&lt;/li&gt;
-&lt;li&gt;Ensure UX and product-led growth is at the heart of what we build.&lt;/li&gt;
-&lt;li&gt;Gain a broader understanding of trends in the HR and HR-tech vertical that impact product development.&lt;/li&gt;
-&lt;li&gt;Work in a collaborative, talented distributed team across the globe.&lt;br&gt;&lt;br&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt; &lt;/div&gt;&lt;h1&gt;&lt;strong&gt;Here's what we are looking for:&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;You are inspired by our mission to put &lt;em&gt;one billion people in dream jobs&lt;/em&gt;
-&lt;/li&gt;
-&lt;li&gt;You are fully aligned with our &lt;a href="https://www.testgorilla.com/careers/"&gt;values &lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;You have a track record of shipping and scaling high quality products that effectively service the needs of both customers and the business.&lt;/li&gt;
-&lt;li&gt;You have creative and innovative problem solving skills and feel comfortable engaging in detailed conversations about strategy and product design with both non-technical and technical audiences.&lt;/li&gt;
-&lt;li&gt;You are data driven and use that skill to drive strategic decisions for the product you are working on. Making sure we tackle the biggest opportunities in the most effective way.&lt;/li&gt;
-&lt;li&gt;You’re able to think big, but start small. You can establish a north star for your product while maintaining an agile mindset towards getting there.&lt;/li&gt;
-&lt;li&gt;You have a user-first mindset. You’re passionate about understanding their needs and continuously improving their experience.&lt;/li&gt;
-&lt;li&gt;You have strong collaboration and relationship building skills that allow you to build cross-functional relationships.&lt;/li&gt;
-&lt;li&gt;You have excellent communication skills (both written and verbal) and attention to detail. &lt;/li&gt;
-&lt;li&gt;You are comfortable with ambiguity and thrive in the fast paced environment of an early-stage startup that is operating remotely around the globe.&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;We typically expect candidates with at least &lt;strong&gt;&lt;em&gt;5 years of Senior Product Management experience&lt;/em&gt;&lt;/strong&gt; to have the skills mentioned above.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;h1&gt;&lt;strong&gt;Bonus points if…&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;You have experience working in a high growth product-led startup.&lt;/li&gt;
-&lt;li&gt;You have domain experience working in HR-tech and/or SaaS.&lt;/li&gt;
-&lt;li&gt;You have led detailed short-term product roadmaps while keeping the longer term vision intact.&lt;/li&gt;
-&lt;li&gt;You have strong experience with UI/UX design, and you are passionate about design and creating beautiful products.&lt;/li&gt;
+&lt;div&gt;&lt;strong&gt;&lt;em&gt;The company&lt;/em&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;silverorange is a design and development agency based in Canada. When pursuing work, we focus on interesting and meaningful projects. Over our 23 years as a company, we've worked with well-known technology organizations like Duolingo and Mozilla, not-for-profit organizations working in areas including arts funding and &lt;a href="https://blog.silverorange.com/usability-for-promotion-codes-and-access-codes"&gt;affordable internet access for low-income families&lt;/a&gt;, and with &lt;a href="https://www.emrap.org/"&gt;world-renowned doctors training other doctors&lt;/a&gt; through online education.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We’re proud of the fantastic products we’ve built in partnership with our clients and we’re actively invested in the processes behind these products. Within the next 6 months, we expect our team to grow from 31 to 34 people in order to meet the needs for new and existing projects. Our growth is careful and considered. We are committed to fostering a team-focused approach in our work of building great user-focused systems, while also placing a serious emphasis on quality of life, openness, empathy, and a supportive work environment.&lt;/div&gt;&lt;div&gt;
+&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;The position&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;We’re looking for an Android Native App Developer to join our team. We are open to developers of various experience levels, and ideally you’ll be joining us with at least one prior full-time experience working as a Native App Developer within a team. We favour applicants with a strong sense of ownership over their own work. Excitement and ability to learn and contribute is more important to us than other metrics like years of experience.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;You’ll start your silverorange career focused on a medical education client, joining our existing experienced native app developers and helping our goal of building a larger Native App development team for this client and for future projects. You’ll help maintain existing, widely-used Android and iOS native apps, as well as contribute to planning and implementing new features.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;This position is available immediately and we will work with you to get you started as soon as possible.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;strong&gt;&lt;em&gt;Growth &amp;amp; ownership&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;Our team is co-operative and will help you learn and expand your skills via mentoring, team-wide support, and learning opportunities. All members of the team are encouraged and given space to grow as individual contributors, and have ongoing opportunities in project and team leadership.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;We’re excited to hear your fresh ideas and approach. We have decades of collective experience, and we all continue to become better at what we do by both teaching and learning from each other. Add your voice to our mix.&lt;br&gt;&lt;br&gt;Opportunity for employee ownership is a fundamental part of silverorange (non-founders currently own more than a third of the company) and we’re currently working on new ways to transfer even more ownership to employees.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;strong&gt;&lt;em&gt;Inclusion &amp;amp; diversity&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;People with different backgrounds and experiences make us stronger, and we’re always looking for ways to improve. Our team is getting more diverse across many dimensions of diversity, but we’re still missing perspectives that could make our work better. We highly encourage people from traditionally underrepresented groups in our industry to apply—we want to add your voice to the mix.&lt;/div&gt;&lt;div&gt;
+&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;Responsibilities&lt;/em&gt;&lt;/strong&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Implementing features and improvements on a Kotlin-based Android app and an Objective-C- and Swift-based iOS app.&lt;/li&gt;
+&lt;li&gt;Reviewing code and content changes from other developers on iOS and Android projects.&lt;/li&gt;
+&lt;li&gt;Communicating with team members and clients to understand and balance requirements.&lt;/li&gt;
+&lt;li&gt;Identifying and helping to address technical design issues in apps.&lt;/li&gt;
+&lt;li&gt;Writing tests for your work.&lt;/li&gt;
 &lt;/ul&gt;&lt;div&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;h1&gt;&lt;strong&gt;Interested?&lt;/strong&gt;&lt;/h1&gt;&lt;div&gt;
-&lt;br&gt;We don’t offer rainbow glitter unicorns or dog-friendly offices (we literally don’t have an office), but we do offer real people, solid core values, and a product meant to give everyone a fair, unbiased chance at their dream jobs.&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;Here at TestGorilla, we eat our own dog food. We use our assessment platform to make sure we make the best hiring decisions, faster and bias-free. &lt;/div&gt;&lt;div&gt;
-&lt;br&gt;So if this role sounds like a good fit for you, I’d like you to take an assessment so we can get a better idea about whether you would fit the role. It’s also a great opportunity for you to get to know our product!&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;If you’re hired, I’ll do everything I can to help you succeed at TestGorilla and throughout the rest of your career.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;
+&lt;br&gt;&lt;strong&gt;&lt;em&gt;Requirements&lt;/em&gt;&lt;/strong&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Be eligible &amp;amp; available to work from Canada.&lt;/li&gt;
+&lt;li&gt;Be able to quickly learn and understand new systems.&lt;/li&gt;
+&lt;li&gt;Have experience with Kotlin and/or Java, rSwift and/or Objective-C.&lt;/li&gt;
+&lt;li&gt;Have experience with the release process on the App Store and Google Play.&lt;/li&gt;
+&lt;li&gt;Have experience developing reasonably complex integrated systems.&lt;/li&gt;
+&lt;li&gt;Have worked on projects with a team of developers.&lt;/li&gt;
+&lt;li&gt;Be able to communicate clearly with clients and co-workers across multiple time zones. Several of our key clients are in California and we have team members in British Columbia, Alberta, Ontario, Quebec, New Brunswick, Nova Scotia, PEI, as well as Ecuador and the United Kingdom.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;br&gt;While not required, if you have any of the following skills let us know:&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Experience with testing and continuous integration processes.&lt;/li&gt;
+&lt;li&gt;User interface and interaction design experience.&lt;/li&gt;
+&lt;li&gt;Gradle / R8 experience in Android development.&lt;/li&gt;
+&lt;li&gt;Working with media playback and data synchronization.&lt;/li&gt;
+&lt;li&gt;Working with Google Cloud Firestore's Firebase product.&lt;/li&gt;
+&lt;li&gt;Experience with reactive programming using Apple’s Combine, or RxJava.&lt;/li&gt;
+&lt;li&gt;Project or product leadership experience in any profession or industry.&lt;/li&gt;
+&lt;li&gt;Elasticsearch querying and indexing.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;br&gt;&lt;strong&gt;&lt;em&gt;Remote working is just as good as local&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;Our team has been remote-friendly for over 20 years, and remote-first for the last 8. We continue to improve our approach to having a dispersed team. Due to COVID-19 this position will start as full-time remote regardless of location, though you are welcome to work from our lovely offices in Charlottetown, Prince Edward Island, Canada once they are re-opened.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;Over half of our team is full-time remote and 95% of our clients are remote. You’ll need to be comfortable working with a remote team regardless of your location.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;Typically all employees spend at least one week each year working from our Charlottetown office so plan on visiting PEI semi-regularly once you feel safe traveling.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;Though you may be working remotely, you’ll be an active member of a great and small but growing team, both here at silverorange and with our clients. Regular voice or video communication will help keep you in touch with the smart people with whom you’ll be working.&lt;/div&gt;&lt;div&gt;
+&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;Benefits &amp;amp; compensation&lt;/em&gt;&lt;/strong&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Flexible work days, approached collaboratively with you to allow for the realities of appointments, family minding, and your everyday life.&lt;/li&gt;
+&lt;li&gt;3 weeks of paid vacation, on top of 10 paid days of civic holidays, and 3 weeks of paid company-wide shut down.&lt;/li&gt;
+&lt;li&gt;Generous health and dental coverage, with 100% of premium covered by silverorange.&lt;/li&gt;
+&lt;li&gt;New computer hardware every 3 years, and other tools as needed.&lt;/li&gt;
+&lt;li&gt;Yearly company-wide bonuses based on overall company success, plus ownership opportunities and dividends for long-term employees.&lt;/li&gt;
+&lt;li&gt;Salaries based on experience starting at CAD $60,500-69,500 per year for those earlier in their career and CAD $85,000-97,000 per year for more senior candidates, with both annual company wide salary band adjustments as well as opportunities and expectation of ongoing career and compensation growth.&lt;/li&gt;
+&lt;li&gt;Additional remote worker salary add-on of CAD $3,000 per year and a wellness salary add-on of $500 per year.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;br&gt;&lt;strong&gt;&lt;em&gt;How to apply&lt;/em&gt;&lt;/strong&gt;
+&lt;/div&gt;&lt;div&gt;Click &lt;em&gt;Apply&lt;/em&gt; and include a copy of your resume, links to relevant examples of recent work (GitHub or an equivalent profile is a great place to start), and an explanation of why you’d be great for the job. Tell us about an interesting project you’ve worked on or helped ship.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We want people to feel they can be their genuine selves at work, so we’d love to hear about who you are. If there is anything else you would like to share with us — i.e. a Medium or Twitter account, online writing or select blog posts, etc. — please feel free to include those as well.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If you require accommodations at any phase of the application or interview process, please let us know by email. We would be happy to support you and discuss accommodations as required.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/testgorilla-senior-product-manager-4"&gt;https://weworkremotely.com/remote-jobs/testgorilla-senior-product-manager-4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/silverorange-android-native-app-developer-1"&gt;https://weworkremotely.com/remote-jobs/silverorange-android-native-app-developer-1&lt;/a&gt;&lt;/p&gt;
 </description>
-      <pubDate>Mon, 02 Jan 2023 04:43:24 +0000</pubDate>
-      <expires_at>Wed, 01 Feb 2023 04:43:24 +0000</expires_at>
-      <guid>https://weworkremotely.com/remote-jobs/testgorilla-senior-product-manager-4</guid>
-      <link>https://weworkremotely.com/remote-jobs/testgorilla-senior-product-manager-4</link>
+      <pubDate>Fri, 16 Dec 2022 15:48:30 +0000</pubDate>
+      <expires_at>Tue, 14 Feb 2023 15:48:30 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/silverorange-android-native-app-developer-1</guid>
+      <link>https://weworkremotely.com/remote-jobs/silverorange-android-native-app-developer-1</link>
+    </item>
+    <item>
+      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0074/7273/logo.gif" type="image/png"/>
+      <title>Salesflow.io: Tech Support Developer (.Net Core / C#) - 3d Line </title>
+      <region>Europe Only</region>
+      <category>Back-End Programming</category>
+      <type>Full-Time</type>
+      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0074/7273/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; London 
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://salesflow.io"&gt;https://salesflow.io&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div&gt;If you are a back-end developer with a proven track record, understanding the .NET programming principles and sales space,  looking to work in a multinational environment, and writing clean codes in your DNA this may be the role for you&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;About us&lt;/div&gt;&lt;div&gt;Salesflow is a Sales engagement platform, purpose-built for the B2B SMB space as one of the fastest-growing growth hacking tools for startups, sales teams, and agencies. This grew from the pains of many companies looking for effective, affordable, and scalable lead generation by amplifying their Linkedin profile for prospecting in a personalized way, at scale. Bootstrapped from 2 to over 40 awesome team members in under 3 years, in London, across Europe, and in the Americas'. The roadmap is ambitious; combining AI and modern technologies that challenge the status quo and looking for a pragmatic and future-thinking head of engineering breakthrough the conversation barrier holding our users from generating even more leads. &lt;/div&gt;&lt;div&gt;About the product: &lt;a href="http://salesflow.io/"&gt;salesflow.io&lt;/a&gt;
+&lt;/div&gt;&lt;div&gt;About our crazy awesome international team &amp;amp; company: &lt;a href="http://careers.salesflow.io/"&gt;careers.salesflow&lt;/a&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;The Role&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Participate in the application support side, focusing on coding, bug fixing and debugging;&lt;/li&gt;
+&lt;li&gt;Developing the Back-end of an existing client application (built with .Net Core 3.1, .Net 6);&lt;/li&gt;
+&lt;li&gt;Take on the responsibility of dev investigations, analysis, and providing fixes for different issues;&lt;/li&gt;
+&lt;li&gt;Troubleshoot problems and identify areas for improvement by collecting and analyzing data, processes, and codes;&lt;/li&gt;
+&lt;li&gt;Enhancing the user experience by collaborating with developers and other team members to establish objectives and design more functional, cohesive code;&lt;/li&gt;
+&lt;li&gt;You will be able to use and learn new technologies and technology stack: .Net Core 3.1, .Net 6, AWS, GitLab, MS SQL, DynamoDB, and SQS;&lt;/li&gt;
+&lt;li&gt;It is a great opportunity to improve your developer skills by working on the entire application;&lt;/li&gt;
+&lt;li&gt;You will be a part of a small and friendly development team.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;The Profile&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;2+ years of back-end development experience;&lt;/li&gt;
+&lt;li&gt;BSc degree in Computer Science or relevant field;&lt;/li&gt;
+&lt;li&gt;Experience with .Net Core, C#/.Net, Design Patterns/ SOLID principles, EF Core, .Net Core Worker Service, Moq/xUnit, T-SQL, AWS DynamoDb, AWS SQS, AWS S3, AWS Lambda, DI (Autofac), CQRS (MediatR), Git, GitLab, CI/CD;&lt;/li&gt;
+&lt;li&gt;Excellent time management skills, and understanding of the Agile (Kanban) process;&lt;/li&gt;
+&lt;li&gt;Upper-Intermediate level of written and spoken English;&lt;/li&gt;
+&lt;li&gt;Focus on efficiency, user experience, and process improvement;&lt;/li&gt;
+&lt;li&gt;Excellent analytical skills;&lt;/li&gt;
+&lt;li&gt;Strong problem-solving, verbal, and written communication skills;&lt;/li&gt;
+&lt;li&gt;Ability to work independently or with a group.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;Our Proposal&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Regular performance and salary reviews;&lt;/li&gt;
+&lt;li&gt;Family-like work culture and an environment with a minimal level of bureaucracy;&lt;/li&gt;
+&lt;li&gt;International team-building activities with offices around the world;&lt;/li&gt;
+&lt;li&gt;Company support in personal skills development, such as workshops, conferences, master classes, etc;&lt;/li&gt;
+&lt;li&gt;Skill development plan and a mentor to guide you;&lt;/li&gt;
+&lt;li&gt;Any necessary equipment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/salesflow-io-tech-support-developer-net-core-c-3d-line"&gt;https://weworkremotely.com/remote-jobs/salesflow-io-tech-support-developer-net-core-c-3d-line&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Fri, 16 Dec 2022 10:18:10 +0000</pubDate>
+      <expires_at>Tue, 14 Feb 2023 10:18:10 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/salesflow-io-tech-support-developer-net-core-c-3d-line</guid>
+      <link>https://weworkremotely.com/remote-jobs/salesflow-io-tech-support-developer-net-core-c-3d-line</link>
     </item>
     <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0082/1851/logo.gif" type="image/png"/>
@@ -3627,105 +3370,6 @@
       <expires_at>Sat, 11 Feb 2023 23:28:05 +0000</expires_at>
       <guid>https://weworkremotely.com/remote-jobs/ride-with-gps-product-designer</guid>
       <link>https://weworkremotely.com/remote-jobs/ride-with-gps-product-designer</link>
-    </item>
-    <item>
-      <title>lemon.io: Go Developer</title>
-      <region>Latin America Only</region>
-      <category>Full-Stack Programming</category>
-      <type>Full-Time</type>
-      <description>
-
-&lt;p&gt;
-  &lt;strong&gt;Headquarters:&lt;/strong&gt; lemon.io
-    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://lemon.io"&gt;https://lemon.io&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;div&gt;
-&lt;br&gt;No office, no cry: get a remote job that you will love with better compensation and career growth!&lt;/div&gt;&lt;div&gt;
-&lt;br&gt;We’re &lt;a href="https://lemon.io/"&gt;Lemon.io&lt;/a&gt; — a marketplace where we match you with hand-picked startups from the US and Europe.&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;&lt;div&gt;
-&lt;strong&gt;&lt;br&gt;Why work with us:&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;We’ll find you a team that respects you. No time trackers or any micromanagement stuff&lt;/li&gt;
-&lt;li&gt;Our engineers earn $5k - $9k / month and more! We’ve already paid out over $10M.&lt;/li&gt;
-&lt;li&gt;Choose your schedule. We have both full- and part-time projects.&lt;/li&gt;
-&lt;li&gt;No project managers in the middle — only direct communications with clients, most of whom have a technical background.&lt;/li&gt;
-&lt;li&gt;Our Customer Success Dept team provides life support to help you resolve anything.&lt;/li&gt;
-&lt;li&gt;You don’t have to search for clients and negotiate anymore: just do what you do best and leave us the rest.&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;strong&gt;&lt;br&gt;Requirements:&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;3+ years of experience in Golang programming&lt;/li&gt;
-&lt;li&gt;Strong knowledge of Go programming language, paradigms, constructs, and idioms&lt;/li&gt;
-&lt;li&gt;Solid experience with the full site of Go frameworks and tools, including:&lt;/li&gt;
-&lt;li&gt;dependency management tools such as Godep, Sltr, etc.;&lt;/li&gt;
-&lt;li&gt;Go’s templating language;&lt;/li&gt;
-&lt;li&gt;Go’s code generation tools, such as Stringer;&lt;/li&gt;
-&lt;li&gt;Popular Go web frameworks, such as Revel&lt;/li&gt;
-&lt;li&gt;Router packages, such as Gorilla Mux&lt;/li&gt;
-&lt;li&gt;Knowledge of Java, Kubernetes, Docker, and XML would be a +&lt;/li&gt;
-&lt;li&gt;Experience with Microservice and AWS would be an advantage&lt;/li&gt;
-&lt;li&gt;Ability to write clean and effective Godoc comments&lt;/li&gt;
-&lt;li&gt;Good command of English, both written and spoken, as you’ll be communicating with clients directly.&lt;/li&gt;
-&lt;li&gt;Strong organizational skills — ability to work full-time remotely with no supervision&lt;/li&gt;
-&lt;li&gt;Responsibility — we want to trust you!&lt;/li&gt;
-&lt;li&gt;Soft skills — we don’t ask you to find a topic for small talk, but being just polite is OK.&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;br&gt;Apply today, and our team will get back to you within 2 business days!&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/lemon-io-go-developer"&gt;https://weworkremotely.com/remote-jobs/lemon-io-go-developer&lt;/a&gt;&lt;/p&gt;
-</description>
-      <pubDate>Tue, 13 Dec 2022 15:39:59 +0000</pubDate>
-      <expires_at>Sat, 11 Feb 2023 15:39:59 +0000</expires_at>
-      <guid>https://weworkremotely.com/remote-jobs/lemon-io-go-developer</guid>
-      <link>https://weworkremotely.com/remote-jobs/lemon-io-go-developer</link>
-    </item>
-    <item>
-      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0081/6771/logo.gif" type="image/png"/>
-      <title>lemon.io: DevOps Engineer</title>
-      <region>Latin America Only</region>
-      <category>Full-Stack Programming</category>
-      <type>Full-Time</type>
-      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0081/6771/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
-
-&lt;p&gt;
-  &lt;strong&gt;Headquarters:&lt;/strong&gt; Ukraine, Kyiv
-    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="http://lemon.io"&gt;http://lemon.io&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;div&gt;Get a remote job that you will love with better compensation and career growth.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We’re &lt;a href="https://lemon.io/"&gt;Lemon.io&lt;/a&gt; — a marketplace where we match you with hand-picked startups from the US and Europe. &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Why work with us:&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;We’ll find you a team that respects you. No time-trackers or any micromanagement stuff&lt;/li&gt;
-&lt;li&gt;Our engineers earn $4k - $8k / month. We’ve already paid out over $10M.&lt;/li&gt;
-&lt;li&gt;Choose your schedule. We have full-time projects with flexible schedule.&lt;/li&gt;
-&lt;li&gt;No project managers in the middle — only direct communications with clients, most of whom have a technical background&lt;/li&gt;
-&lt;li&gt;Our customer success team provides life support to help you resolve anything.&lt;/li&gt;
-&lt;li&gt;You don’t have to look for clients or negotiate anymore: just do what you do best and leave us the rest.&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;strong&gt;Requirements:&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;4-5+ years of experience as a DevOps engineer&lt;/li&gt;
-&lt;li&gt;Experience developing engineering applications for large corporations&lt;/li&gt;
-&lt;li&gt;Solid understanding of AWS or GCP/Azure, Kubernetes.&lt;/li&gt;
-&lt;li&gt;Knowledge of Python and Linux.&lt;/li&gt;
-&lt;li&gt;In-depth understanding of Continuous Integration, Delivery, and Deployment theory and practice&lt;/li&gt;
-&lt;li&gt;Knowledge of at least one Infrastructure as Code / Configuration as Code technology (such as Terraform, Ansible, Chef, Puppet, Salt)&lt;/li&gt;
-&lt;li&gt;Experience in system troubleshooting and problem-solving across platform and application domains&lt;/li&gt;
-&lt;li&gt;Good understanding of agile methods&lt;/li&gt;
-&lt;li&gt;Good command of English, both written and spoken, as you’ll be communicating with clients directly.&lt;/li&gt;
-&lt;li&gt;Strong organizational skills — ability to work full-time remotely with no supervision&lt;/li&gt;
-&lt;li&gt;Responsibility — we want to trust you.&lt;/li&gt;
-&lt;li&gt;Soft skills — we don’t ask you to find a topic for small talk, but being just polite is OK.&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;br&gt;Apply today, and our team will get back to you within 2 business days!&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/lemon-io-devops-engineer-1"&gt;https://weworkremotely.com/remote-jobs/lemon-io-devops-engineer-1&lt;/a&gt;&lt;/p&gt;
-</description>
-      <pubDate>Tue, 13 Dec 2022 15:39:17 +0000</pubDate>
-      <expires_at>Sat, 11 Feb 2023 15:39:17 +0000</expires_at>
-      <guid>https://weworkremotely.com/remote-jobs/lemon-io-devops-engineer-1</guid>
-      <link>https://weworkremotely.com/remote-jobs/lemon-io-devops-engineer-1</link>
     </item>
     <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0071/3228/logo.gif" type="image/png"/>
@@ -4184,6 +3828,180 @@
       <link>https://weworkremotely.com/remote-jobs/knack-product-designer</link>
     </item>
     <item>
+      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0082/0213/logo.gif" type="image/png"/>
+      <title>Copia: Quality Assurance Engineer</title>
+      <region>USA Only</region>
+      <category>Product</category>
+      <type>Full-Time</type>
+      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0082/0213/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; Laguna Beach, CA
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://gocopia.com"&gt;https://gocopia.com&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;Position Summary&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;We are looking for an experienced Quality Assurance Engineer to join the Copia team and work with us to continue imagining and enhancing our services to support our vision that is delightful for our food donors, recipients, and team.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;The Quality Assurance Engineer, reporting to the Technical Program Manager, is responsible for testing frontend and backend applications, in both manual and automated modalities. This role requires a highly motivated, detail oriented, self-reliant, and well organized individual. The role requires deep knowledge of quality assurance practices and toolsets, specifically those used in React and Kotlin development, and of end to end testing.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;What you will be responsible for&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Develop and execute test plans for every feature released&lt;/li&gt;
+&lt;li&gt;Work with Software Engineers to incrementally improve code reliability&lt;/li&gt;
+&lt;li&gt;Work with Backend &amp;amp; Frontend Engineers to specify and test APIs&lt;/li&gt;
+&lt;li&gt;Output consistently high quality tests and give timely and valuable feedback&lt;/li&gt;
+&lt;li&gt;Work autonomously, with little supervision at a consistent velocity&lt;/li&gt;
+&lt;li&gt;Contribute to team culture, growth and mentorship&lt;/li&gt;
+&lt;li&gt;Support and encourage diversity, inclusion and equity&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;Requirements&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Experience developing test plans.&lt;/li&gt;
+&lt;li&gt;Experience with common test toolkits (Cucumber, Jest, Selenium)&lt;/li&gt;
+&lt;li&gt;Experience working with RESTful APIs and JSON&lt;/li&gt;
+&lt;li&gt;Create and design application and software testing processes&lt;/li&gt;
+&lt;li&gt;Monitor system and software functionality&lt;/li&gt;
+&lt;li&gt;Ensure that Copia’s offerings are entirely functional and meet stated acceptance criteria (AC)&lt;/li&gt;
+&lt;li&gt;Work closely with Engineering and Technical Program Manager (TPM) to ensure&lt;/li&gt;
+&lt;li&gt;ACs are well thought out and meet design objectives&lt;/li&gt;
+&lt;li&gt;Advise best practices and optimizations throughout testing and bug-fixing processes&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;Education and Experience&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;3+ years of experience in Quality Assurance&lt;/li&gt;
+&lt;li&gt;BA/BS preferred, or equivalent experience&lt;/li&gt;
+&lt;li&gt;Analytical approach to troubleshooting&lt;/li&gt;
+&lt;li&gt;Attention to detail&lt;/li&gt;
+&lt;li&gt;Familiarity with Javascript and Kotlin&lt;/li&gt;
+&lt;li&gt;Demonstrated experience building and maintaining backend services&lt;/li&gt;
+&lt;li&gt;Demonstrated experience mentoring&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;Physical Requirements/Work Environment&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;This role requires the ability to spend long periods of time at a computer&lt;/li&gt;
+&lt;li&gt;This role requires light lifting (5-10lbs) on occasion&lt;/li&gt;
+&lt;li&gt;This role may require occasional long or non-standard working days&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/copia-quality-assurance-engineer"&gt;https://weworkremotely.com/remote-jobs/copia-quality-assurance-engineer&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Wed, 16 Nov 2022 20:58:47 +0000</pubDate>
+      <expires_at>Tue, 14 Feb 2023 20:58:47 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/copia-quality-assurance-engineer</guid>
+      <link>https://weworkremotely.com/remote-jobs/copia-quality-assurance-engineer</link>
+    </item>
+    <item>
+      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0082/0199/logo.gif" type="image/png"/>
+      <title>Hypergen: Cold-Email Marketing Manager</title>
+      <region>Anywhere in the World</region>
+      <category>Sales and Marketing</category>
+      <type>Full-Time</type>
+      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0082/0199/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; Sofia, Bulgaria
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="http://hypergen.io"&gt;http://hypergen.io&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div&gt;We are looking to add a Campaign Manager to our team! Starting monthly salary of $2000+ revenue share opportunities after 3 months.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;✨&lt;strong&gt;Who are we:&lt;/strong&gt;
+&lt;/div&gt;&lt;div&gt;A B2B SaaS Marketing agency working with top US, UK, and EU startup clients. Some of our clients include Lytics, Prezzee, Daring and RealScale. We are an ROI-driven agency with one of the best Cold Email Systems in the world.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;💪&lt;strong&gt;You are the right fit if:&lt;/strong&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;You are hungry to learn more about B2B Outbound Marketing and in particular about cold email&lt;/li&gt;
+&lt;li&gt;You are an amazing, top-notch English copywriting (or at least eager to learn)&lt;/li&gt;
+&lt;li&gt;You are a self-starter, love to learn new things on a daily basis, and get excited about results&lt;/li&gt;
+&lt;li&gt;You have a strong meme game&lt;/li&gt;
+&lt;li&gt;You are okay working 6 AM EST - 2 PM EST ( we need to accomodate our US clients)&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;📅&lt;strong&gt; What will your day to day be like:&lt;/strong&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Managing multiple cold email campaigns for clients. Optimizing open rates and replies&lt;/li&gt;
+&lt;li&gt;Crafting one of a kind copy to grab our target audience's attention&lt;/li&gt;
+&lt;li&gt;Learning the ins and out of the business of a successful marketing agency.&lt;/li&gt;
+&lt;li&gt;Communicating with clients on results. Our clients are super fun to work with, btw!&lt;/li&gt;
+&lt;li&gt;Researching, researching, and learning. We expect you to learn about new market trends, tools not only from us but also on your own!&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;💖&lt;strong&gt; How to apply:&lt;/strong&gt;
+&lt;/div&gt;&lt;div&gt;If you would like to apply feel free to email your resume to kien@hypergen.io or submit it here on https://www.linkedin.com/jobs/view/3265256942.&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/hypergen-cold-email-marketing-manager"&gt;https://weworkremotely.com/remote-jobs/hypergen-cold-email-marketing-manager&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Wed, 16 Nov 2022 18:42:28 +0000</pubDate>
+      <expires_at>Tue, 14 Feb 2023 18:42:28 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/hypergen-cold-email-marketing-manager</guid>
+      <link>https://weworkremotely.com/remote-jobs/hypergen-cold-email-marketing-manager</link>
+    </item>
+    <item>
+      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0018/9650/logo.gif" type="image/png"/>
+      <title>Yoko Co: Director of Growth / Business Development Director</title>
+      <region>Anywhere in the World</region>
+      <category>Sales and Marketing</category>
+      <type>Full-Time</type>
+      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0018/9650/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; McLean, VA
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://www.yokoco.com/"&gt;https://www.yokoco.com/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;Grow a sales team with soul.&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;At Yoko Co, we know that life is short, which is why we exclusively serve clients who are working to make a positive impact. From rescuing pets, to saving lives, to building communities for brilliant minds, the work you do here will help make the world a better place.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;Our team is made up of people who are passionate about the work they do, the missions of the clients they serve, and, importantly, their craft. We also care about each other — we don’t think of one another as coworkers or employees, but as fellow humans. From project managers to strategists, developers to designers, we bring out the best in each other. &lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;If you work here, you’ll:&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Lead the team as a player/coach - both helping to lead key sales initiatives as well as support and grow a small and mighty sales team.&lt;/li&gt;
+&lt;li&gt;Regularly perform outreach and networking across a mix of media to build relationships with people in inspiring and exciting organizations to help them maximize their positive impact in the world.&lt;/li&gt;
+&lt;li&gt;Lead the sales process for our accounts and prospects, from initial conversations to proposals, presentations, demonstrations, and contracting.&lt;/li&gt;
+&lt;li&gt;Be the first line of screening to ensure optimal fit and alignment between our team and potential clients.&lt;/li&gt;
+&lt;li&gt;Occasionally help support other team members sales conversations or initiatives and paperwork for new and existing clients.&lt;/li&gt;
+&lt;li&gt;Serve as an example of our culture and values. &lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;You’ll do well in this position if you:&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Have 8 or more years of experience in selling digital marketing and website design and development.&lt;/li&gt;
+&lt;li&gt;Have significant experience with WordPress.&lt;/li&gt;
+&lt;li&gt;Can lead a room consisting of anyone from senior executives to entry-level employees and help understand their needs (declared and revealed) and position our team appropriately. &lt;/li&gt;
+&lt;li&gt;Have a personality that is energized by interaction with others.&lt;/li&gt;
+&lt;li&gt;Naturally find yourself taking the initiative to solve problems, and make things better. &lt;/li&gt;
+&lt;li&gt;Operate comfortably at a fast pace with multiple projects, helping teams react to fluid situations. &lt;/li&gt;
+&lt;li&gt;Are an excellent communicator across media types: In person, video, or in writing.&lt;/li&gt;
+&lt;li&gt;Can meet people at their level of strategic or technical experience and naturally educate them.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;However, maybe don’t apply if:&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;You prefer opportunities to come to you. Sure, some of that will happen, but as the saying goes fortune helps those who help themselves. Regular outreach and networking are a non-negotiable part of this position. &lt;/li&gt;
+&lt;li&gt;You’ve ever said “that’s not my job” or “that’s below my pay grade.” While we try to utilize everyone in the best way possible, sometimes it’s more important to roll up your sleeves and prove you’re a part of a team. &lt;/li&gt;
+&lt;li&gt;You’d rather wait for someone to tell you what to do. &lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;The interview process:&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;You’ll do 3-4 interviews with various team members, starting with a short culture interview, and then moving on to more specialized conversations. Somewhere in the middle of the process, you’ll likely do a short practical assessment to ensure you can deliver at the level it takes to be successful here. &lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;If you work here:&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;You’ll get a competitive salary, unlimited time off, a flexible schedule, the ability to work wherever you want, a personal development budget, federal holidays, and multiple weeks off at the end of the year to recharge. We also provide profit sharing to everyone on the team. If you’re in the US, we offer health insurance, disability and life insurance, and 401k matching.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;A little more about us:&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;We’ve been in business for over a decade, our whole team is remote, we were named a 2020 and 2021 Best Place to Work by the Inc. 5000 and the Washington Business Journal, and you can poke around our &lt;a href="https://www.yokoco.com"&gt;website&lt;/a&gt; to learn more. &lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;strong&gt;&lt;br&gt;To apply:&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;If you’re interested, send an email to &lt;a href="mailto:careers@yokoco.com"&gt;careers@yokoco.com&lt;/a&gt; with the subject line “&lt;strong&gt;Player/Coach&lt;/strong&gt;” — While you’re at it, we’d love to learn a bit more about you, so share a link to your personal website, LinkedIn profile or, if you’d like to skip to the front of the interview line, record a video introduction.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;We take applicants from all over the world. However, you must be willing to work a schedule that has a reasonable overlap with normal US business hours. &lt;br&gt;&lt;br&gt;If you’re interested, send an email to &lt;a href="mailto:careers@yokoco.com"&gt;careers@yokoco.com&lt;/a&gt; with the subject line “&lt;strong&gt;Sales with Soul&lt;/strong&gt;” — While you’re at it, we’d love to learn a bit more about you, so share a link to your personal website, LinkedIn profile or, if you’d like to skip to the front of the interview line, record a video introduction.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/yoko-co-director-of-growth-business-development-director"&gt;https://weworkremotely.com/remote-jobs/yoko-co-director-of-growth-business-development-director&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Wed, 16 Nov 2022 14:13:51 +0000</pubDate>
+      <expires_at>Tue, 14 Feb 2023 14:13:51 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/yoko-co-director-of-growth-business-development-director</guid>
+      <link>https://weworkremotely.com/remote-jobs/yoko-co-director-of-growth-business-development-director</link>
+    </item>
+    <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0081/9826/logo.gif" type="image/png"/>
       <title>HOLT: HOLT GEA - Guest Experience Agent</title>
       <region>Americas Only</region>
@@ -4530,6 +4348,100 @@
       <expires_at>Sun, 12 Feb 2023 11:15:32 +0000</expires_at>
       <guid>https://weworkremotely.com/remote-jobs/deon-senior-cloud-asp-net-kubernetes-developer</guid>
       <link>https://weworkremotely.com/remote-jobs/deon-senior-cloud-asp-net-kubernetes-developer</link>
+    </item>
+    <item>
+      <title>ConvertFlow: Customer Success Manager</title>
+      <region>Anywhere in the World</region>
+      <category>Customer Support</category>
+      <type>Full-Time</type>
+      <description>
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; Miami, FL
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://www.convertflow.com"&gt;https://www.convertflow.com&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div&gt;Independent brands need your help – Here's your chance to join the independent ecommerce movement and impact the future of ecommerce.&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;At ConvertFlow, we're helping brands own their growth and stay independent of big tech platforms that seek to control how consumers shop and who they shop with.&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;For independent ecommerce brands, the big tech platforms are increasingly feeling like "the empire" that's oppressing them with margin-crushing platform fees and ever-increasing ad costs, limiting access to new customers and the brand's existing audience.&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;We're "arming the rebels" by empowering independent brands with the tools they need to deliver personalized shopping experiences across the channels they own, such as their own website, email &amp;amp; SMS audience. This way, they can win over more customers, increase loyalty, and create a thriving business that controls its future.&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;To do this, we've built ConvertFlow, the all-in-one funnel builder for ecommerce – which empowers brands to create, test and personalize shopping experiences, without coding or relying on developers.&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;Since we've started ConvertFlow, we've helped over 30,000 brands drive more revenue and own their growth throughout their business journey. We've seen our customers start small and scale big. Today, ConvertFlow empowers businesses of all sizes, from entrepreneurs with big visions, to iconic brands like Porsche, Audi, Volkswagen, and Nectar.&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;We’re looking for a Customer Success Manager to help brands achieve their marketing and revenue goals through the use of ConvertFlow’s all-in-one funnel builder. This role involves a consultative and holistic approach to both digital marketing and client management, that includes helping brands adopt ConvertFlow’s platform, as well as plan out, execute and optimize strategies to craft personalized shopping experiences that increase revenue and customer loyalty.&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;If you love tackling new challenges, digital marketing, and working closely with clients, then this is a unique opportunity to join our talented team and directly impact the digital marketing strategy of fast-growing brands – plus, have a lot of fun while doing it.&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;&lt;strong&gt;How you’ll make a difference&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;strong&gt;Learn&lt;/strong&gt; - Develop expert-level knowledge in our product, services, and in ecommerce marketing.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Onboard&lt;/strong&gt; - Successfully onboard new customers on to ConvertFlow’s platform and help them launch their first campaigns following our conversion best practices and playbooks.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Coach&lt;/strong&gt; - Become a trusted conversion coach for growing brands and establish marketing best practices to ensure our customers are on the leading front of personalized ecommerce marketing. Help brands you work with succeed through strategy development, campaign execution and optimization.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Empower&lt;/strong&gt; - Review customers’ performance and proactively think outside the box to generate new campaigns ideas, suggestions for optimizations, and templates brands can use to launch campaigns faster.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Retain&lt;/strong&gt; - Leverage data to identify gaps that clients may have in their marketing, and provide solutions to help them improve with ConvertFlow.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Grow&lt;/strong&gt; - Iterate on customers’ results. Ensure customers grow quickly and effectively on ConvertFlow’s platform, and adopt new features and services that will help them succeed.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Innovate&lt;/strong&gt; - Bring your thinking, strategies, and ideas to advance our company’s customer success and go-to-market strategies, as well as vision for the future.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;
+&lt;strong&gt;Your first 6 months&lt;br&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;&lt;strong&gt;In month one, you’ll…&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Learn the ConvertFlow story, how we work and our goals for the future.&lt;/li&gt;
+&lt;li&gt;Receive in-depth product training, including learning how to use the product for your own online store.&lt;/li&gt;
+&lt;li&gt;Have 1:1 meetings with your direct manager and meet with other team members.&lt;/li&gt;
+&lt;li&gt;Shadow colleagues, learn best practices for what makes ConvertFlow customers successful.&lt;/li&gt;
+&lt;li&gt;Join customers for onboarding calls and assist them with the adoption of ConvertFlow’s platform.&lt;/li&gt;
+&lt;li&gt;Become responsible for your very own portfolio of customers.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;By month three, you’ll…&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Continue to master your knowledge of ConvertFlow’s product and have a deep understanding of the industry.&lt;/li&gt;
+&lt;li&gt;Continue to learn and apply ConvertFlow’s best practices and playbooks with customers.&lt;/li&gt;
+&lt;li&gt;Work with your customers daily, delivering value and helping them achieve their goals.&lt;/li&gt;
+&lt;li&gt;Identify growth opportunities for customers.&lt;/li&gt;
+&lt;li&gt;Continue learning about the ever-changing industry.&lt;/li&gt;
+&lt;li&gt;Start achieving your net retention and customer onboarding targets.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;By month six, you’ll…&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Be a trusted advisor for a portfolio of brands growing on ConvertFlow’s platform.&lt;/li&gt;
+&lt;li&gt;Have a proactive, independently managed routine established for working with your customers.&lt;/li&gt;
+&lt;li&gt;Drive customers successfully through onboarding within a fast paced environment.&lt;/li&gt;
+&lt;li&gt;Master ecommerce conversion best practices.&lt;/li&gt;
+&lt;li&gt;Be consistently hitting and exceeding your retention goals.&lt;/li&gt;
+&lt;li&gt;Work with your manager to identify a plan of continued growth for your career.&lt;/li&gt;
+&lt;li&gt;Bring your thinking, strategy and ideas to the team to advance customer success at ConvertFlow and our vision for the future.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;About you&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;2+ years of customer facing experience in an implementation, client services or customer success role, preferably in a software or ecommerce/marketing environment.&lt;/li&gt;
+&lt;li&gt;Demonstrated success in fast-paced and demanding environments; you love challenges, creative problem solving, and overcoming obstacles.&lt;/li&gt;
+&lt;li&gt;Detail-oriented with the ability to project manage, set priorities and stay organized when managing multiple client relationships.&lt;/li&gt;
+&lt;li&gt;A proven record of retaining and growing multiple client relationships.&lt;/li&gt;
+&lt;li&gt;Excellent communication skills and emotional intelligence; you enjoy building relationships and high-touch client interactions.&lt;/li&gt;
+&lt;li&gt;Experience in marketing or advising customers on marketing strategy.&lt;/li&gt;
+&lt;li&gt;Tech savvy and eagerness to learn new technology and practices.&lt;/li&gt;
+&lt;li&gt;Working knowledge of the marketing and ecommerce tech ecosystem.&lt;/li&gt;
+&lt;li&gt;Proactive and energetic attitude with the desire to be a key player on a results-oriented team.&lt;/li&gt;
+&lt;li&gt;Experience using email marketing platforms and ecommerce platforms is a plus.&lt;/li&gt;
+&lt;li&gt;Your daily work schedule will be Eastern Time business hours.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;br&gt;&lt;strong&gt;Benefits&lt;/strong&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Work from anywhere (as long as you work ET business hours, and can attend customer-facing video calls daily)&lt;/li&gt;
+&lt;li&gt;Work with a small team that’s ambitious and courageously punches above its weight&lt;/li&gt;
+&lt;li&gt;Competitive base salary and uncapped commission structure&lt;/li&gt;
+&lt;li&gt;Healthcare, dental and vision insurance&lt;/li&gt;
+&lt;li&gt;Flexible vacation policy&lt;/li&gt;
+&lt;li&gt;Flexible work schedule&lt;/li&gt;
+&lt;li&gt;Culture of learning and development with a training allowance&lt;/li&gt;
+&lt;li&gt;Monthly co-working stipend&lt;/li&gt;
+&lt;li&gt;Remote work gear (perks for home office, company laptop, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/convertflow-customer-success-manager"&gt;https://weworkremotely.com/remote-jobs/convertflow-customer-success-manager&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Fri, 16 Sep 2022 19:18:52 +0000</pubDate>
+      <expires_at>Mon, 13 Feb 2023 19:18:52 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/convertflow-customer-success-manager</guid>
+      <link>https://weworkremotely.com/remote-jobs/convertflow-customer-success-manager</link>
     </item>
     <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0081/7033/logo.gif" type="image/png"/>
@@ -4908,6 +4820,73 @@
       <link>https://weworkremotely.com/remote-jobs/kinsta-senior-javascript-developer</link>
     </item>
     <item>
+      <title>silverorange: Full Stack React Web Developers</title>
+      <region>Canada Only</region>
+      <category>Full-Stack Programming</category>
+      <type>Full-Time</type>
+      <description>
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; Charlottetown, PE
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://www.silverorange.com/"&gt;https://www.silverorange.com/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div&gt;&lt;strong&gt;&lt;em&gt;The company&lt;/em&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;silverorange is a design and development agency based in Canada. When pursuing work, we focus on interesting and meaningful projects. Over our 23 years as a company, we’ve worked with well-known technology organizations like Duolingo and Mozilla, not-for-profit organizations working in areas including arts funding and affordable internet access for low-income families, and with world-renowned doctors training other doctors through online education.&lt;br&gt;&lt;br&gt;We’re proud of the fantastic products we’ve built in partnership with our clients and we’re actively invested in the processes behind these products. Within the next 6 months, we expect our team to grow from 31 to 34 people in order to meet the needs for new and existing projects. Our growth is careful and considered. We are committed to fostering a team-focused approach in our work of building great user-focused systems, while also placing a serious emphasis on quality of life, openness, empathy, and a supportive work environment.&lt;/div&gt;&lt;div&gt;&lt;em&gt;&lt;br&gt;The positions&lt;/em&gt;&lt;/div&gt;&lt;div&gt;We’re looking for several Full Stack React Web Developers to join our team. We are open to developers of various experience levels, and ideally you’ll be joining us with at least one prior full-time experience working as a React Developer within a team. We favour applicants with a strong sense of ownership over their own work. Excitement and ability to learn and contribute is more important to us than other metrics like years of experience.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;You’ll start your silverorange career on an internal team focused on a medical education client, helping us to develop and maintain their products as well as contribute to planning and implementing new features.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;These positions are available immediately and we will work with you to get you started as soon as possible.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;strong&gt;&lt;em&gt;Growth &amp;amp; ownership&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;Our team is co-operative and will help you learn and expand your skills via mentoring, team-wide support, and learning opportunities. All members of the team are encouraged and given space to grow as individual contributors, and have ongoing opportunities in project and team leadership.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;We’re excited to hear your fresh ideas and approach. We have decades of collective experience, and we all continue to become better at what we do by both teaching and learning from each other. Add your voice to our mix.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;Opportunity for employee ownership is a fundamental part of silverorange (non-founders currently own more than a third of the company) and we’re currently working on new ways to transfer even more ownership to employees.&lt;/div&gt;&lt;div&gt;
+&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;Inclusion &amp;amp; diversity&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;People with different backgrounds and experiences make us stronger, and we’re always looking for ways to improve. Our team is getting more diverse across many dimensions of diversity, but we’re still missing perspectives that could make our work better. We highly encourage people from traditionally underrepresented groups in our industry to apply—we'd love to hear from you.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;Responsibilities&lt;/em&gt;&lt;/strong&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Implementing features and improvements on a mix of React Web and React Native applications.&lt;/li&gt;
+&lt;li&gt;Reviewing code and content changes from other developers on the project.&lt;/li&gt;
+&lt;li&gt;Working from mockups (this project uses Figma), wireframes, and design systems.&lt;/li&gt;
+&lt;li&gt;Communicating with team members and clients to understand and balance requirements.&lt;/li&gt;
+&lt;li&gt;Identifying and helping to address accessibility issues in Web and mobile systems.&lt;/li&gt;
+&lt;li&gt;Writing tests for your work.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;Requirements&lt;/em&gt;&lt;/strong&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Be eligible &amp;amp; available to work from Canada&lt;/li&gt;
+&lt;li&gt;Have an understanding of core front-end Web technologies, including HTML, CSS, and JavaScript, and understand how these standards relate to libraries like React.&lt;/li&gt;
+&lt;li&gt;Have an understanding of the fundamentals of React Native and how it differs from React on the Web&lt;/li&gt;
+&lt;li&gt;Have experience using React to develop Web applications or React Native to develop Applications on iOS and/or Android.&lt;/li&gt;
+&lt;li&gt;Have some experience using version control systems like Git to manage changes.&lt;/li&gt;
+&lt;li&gt;Be able to communicate clearly with clients and co-workers across multiple time zones. Several of our key clients are in California and we have team members in British Columbia, Alberta, Ontario, Quebec, New Brunswick, Nova Scotia, PEI, as well as Ecuador and the United Kingdom.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;br&gt;While not required, if you have any of the following skills let us know:&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;API development in Node/Express&lt;/li&gt;
+&lt;li&gt;Working with Firebase&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;Next.js&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;
+&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;Remote working is just as good as local&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;Our team has been remote-friendly for over 20 years, and remote-first for the last 7. We continue to improve our approach to having a dispersed team. Due to COVID-19 this position will start as full-time remote regardless of location, though you are welcome to work from our lovely offices in Charlottetown, Prince Edward Island, Canada once they are re-opened.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;Over half of our team is full-time remote and 95% of our clients are remote. You’ll need to be comfortable working with a remote team regardless of your location.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;Typically all employees spend at least one week each year working from our Charlottetown office so plan on visiting PEI semi-regularly once you feel safe traveling.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;Though you may be working remotely, you’ll be an active member of a great and small but growing team, both here at silverorange and with our clients. Regular voice or video communication will help keep you in touch with the smart people with whom you’ll be working.&lt;/div&gt;&lt;div&gt;
+&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;Benefits &amp;amp; compensation&lt;/em&gt;&lt;/strong&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Flexible work days, approached collaboratively with you to allow for the realities of appointments, family minding, and your everyday life.&lt;/li&gt;
+&lt;li&gt;3 weeks of paid vacation, on top of 10 paid days of civic holidays, and 3 weeks of paid company-wide shut down.&lt;/li&gt;
+&lt;li&gt;Generous health and dental coverage, with 100% of premium covered by silverorange.&lt;/li&gt;
+&lt;li&gt;New computer hardware every 3 years, and other tools as needed.&lt;/li&gt;
+&lt;li&gt;Yearly company-wide bonuses based on overall company success, plus ownership opportunities and dividends for long-term employees.&lt;/li&gt;
+&lt;li&gt;Salaries based on experience starting at CAD $60,500-69,500 per year for those earlier in their career and CAD $85,000-97,000 per year for more senior candidates, with both annual company wide salary band adjustments as well as opportunities and expectation of ongoing career and compensation growth.&lt;/li&gt;
+&lt;li&gt;Additional remote worker salary add-on of CAD $3,000 per year and a wellness salary add-on of $500 per year.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;&lt;em&gt;How to apply&lt;/em&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Click &lt;em&gt;Apply&lt;/em&gt; and include a copy of your resume, links to relevant examples of recent work (GitHub or an equivalent profile is a great place to start), and an explanation of why you’d be great for the job. Tell us about an interesting project you’ve worked on or helped ship.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We want people to feel they can be their genuine selves at work, so we’d love to hear about who you are. If there is anything else you would like to share with us — i.e. a Medium or Twitter account, online writing or select blog posts, etc. — please feel free to include those as well.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If you require accommodations at any phase of the application or interview process, please let us know by email. We would be happy to support you and discuss accommodations as required.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/silverorange-full-stack-react-web-developers"&gt;https://weworkremotely.com/remote-jobs/silverorange-full-stack-react-web-developers&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Wed, 20 Apr 2022 17:13:29 +0000</pubDate>
+      <expires_at>Tue, 14 Feb 2023 17:13:29 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/silverorange-full-stack-react-web-developers</guid>
+      <link>https://weworkremotely.com/remote-jobs/silverorange-full-stack-react-web-developers</link>
+    </item>
+    <item>
       <title>Nagarro Digital Ventures: Senior Digital Project Manager</title>
       <region>North America Only</region>
       <category>Management and Finance</category>
@@ -4980,40 +4959,6 @@
       <expires_at>Tue, 07 Feb 2023 17:32:31 +0000</expires_at>
       <guid>https://weworkremotely.com/remote-jobs/nagarro-digital-ventures-senior-digital-project-manager</guid>
       <link>https://weworkremotely.com/remote-jobs/nagarro-digital-ventures-senior-digital-project-manager</link>
-    </item>
-    <item>
-      <title>Amazowl: Amazon PPC Advertising Manager</title>
-      <region>Anywhere in the World</region>
-      <category>Sales and Marketing</category>
-      <type>Contract</type>
-      <description>
-
-&lt;p&gt;
-  &lt;strong&gt;Headquarters:&lt;/strong&gt; Dublin, Ireland
-    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://www.amazowl.com"&gt;https://www.amazowl.com&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;div&gt;Amazowl is a fully-remote global Amazon Marketing Agency.&lt;br&gt;&lt;br&gt;We're seeking &lt;strong&gt;Amazon PPC Advertising Managers&lt;/strong&gt; for several &lt;strong&gt;full-time contract&lt;/strong&gt; roles depending on experience.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Requirements&lt;/strong&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;In-depth experience of Amazon PPC a must&lt;/li&gt;
-&lt;li&gt;Attention to detail&lt;/li&gt;
-&lt;li&gt;Reporting analysis &amp;amp; generation&lt;/li&gt;
-&lt;li&gt;Ability to manage many accounts across very different client verticals&lt;/li&gt;
-&lt;li&gt;Knowledge of other marketplaces such as Walmart is a plus but not required&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;
-&lt;br&gt;&lt;strong&gt;Job Benefits&lt;/strong&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Fully-remote company&lt;/li&gt;
-&lt;li&gt;Extremely flexible working hours&lt;/li&gt;
-&lt;li&gt;Leadership roles available&lt;/li&gt;
-&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/amazowl-amazon-ppc-advertising-manager"&gt;https://weworkremotely.com/remote-jobs/amazowl-amazon-ppc-advertising-manager&lt;/a&gt;&lt;/p&gt;
-</description>
-      <pubDate>Thu, 18 Nov 2021 14:18:18 +0000</pubDate>
-      <expires_at>Sat, 11 Feb 2023 14:18:18 +0000</expires_at>
-      <guid>https://weworkremotely.com/remote-jobs/amazowl-amazon-ppc-advertising-manager</guid>
-      <link>https://weworkremotely.com/remote-jobs/amazowl-amazon-ppc-advertising-manager</link>
     </item>
     <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0071/4151/logo.gif" type="image/png"/>
@@ -5124,6 +5069,78 @@
       <link>https://weworkremotely.com/remote-jobs/a-team-senior-independent-ux-ui-designer-110-190-hr</link>
     </item>
     <item>
+      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0067/0059/logo.gif" type="image/png"/>
+      <title>Swimlane: Site Reliability Engineer (SRE)</title>
+      <region>USA Only</region>
+      <category>DevOps and Sysadmin</category>
+      <type>Full-Time</type>
+      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0067/0059/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; Louisville, CO
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="https://www.swimlane.com"&gt;https://www.swimlane.com&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div&gt;Swimlane is a rapidly growing, innovative startup with a passionate team focused on improving the lives of IT security practitioners through security automation and orchestration. At Swimlane, we work with a cutting-edge technology stack to create and distribute products that empower Security Operations teams to automate time-consuming and repetitive tasks, allowing them to focus on the advanced security activities that are most important to their work. We’re headquartered in the Denver, CO metro area, but our employees span 23 states and 6 countries. We offer competitive salaries and benefits, along with a community-based culture of transparency and innovation. Become a Swimlaner today!&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;As a &lt;strong&gt;Site Reliability Engineer&lt;/strong&gt; on our team, you will help design, build, maintain, and scale our new greenfield SaaS platform. As a believer of our DevOps practices, you will continue to automate all aspects of our software deployment and product delivery processes. You will report to our Infrastructure Manager and be fully remote.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Additionally, in this Site Reliability Engineer position, you will:&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Help design, manage, and support our new SaaS platform&lt;/li&gt;
+&lt;li&gt;Build and manage highly reliable, redundant, secure, and scalable customer-facing infrastructure&lt;/li&gt;
+&lt;li&gt;Design, manage, and maintain tools to automate operational processes&lt;/li&gt;
+&lt;li&gt;Use monitoring tools to find problems, resolve and/or escalate to development and ensure that we exceed our SLAs&lt;/li&gt;
+&lt;li&gt;Work closely with the development and QA team throughout the technology stack&lt;/li&gt;
+&lt;li&gt;Participate in a 24/7 on-call rotation&lt;/li&gt;
+&lt;li&gt;Collaborate with other developers, testers, and system engineers to ensure quality product enhancements&lt;/li&gt;
+&lt;li&gt;Optimize like crazy; squeeze every bit of performance out of our servers&lt;/li&gt;
+&lt;li&gt;Automate everything!&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;WHAT WE OFFER&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In order for you to take care of yourself both professionally and personally, we offer a total rewards package that includes a number of great benefits, including:&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Medical, dental and vision coverage paid by Company at 100% for employee &amp;amp; 50% for dependents&lt;/li&gt;
+&lt;li&gt;401(k) plan participation with 3% Company safe harbor contribution &amp;amp; 100% immediate vesting&lt;/li&gt;
+&lt;li&gt;Unlimited PTO &amp;amp; 11 Company paid holidays&lt;/li&gt;
+&lt;li&gt;Company paid short-term disability, long-term disability, basic life insurance, and AD&amp;amp;D&lt;/li&gt;
+&lt;li&gt;Health Savings Account (HSA) for eligible plan participants&lt;/li&gt;
+&lt;li&gt;Company sponsored training &amp;amp; professional development opportunities&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;Here at Swimlane, we strive to represent our five core values in all things we do:&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Punch above our weight class - surprising people that we accomplished what we did with what we have&lt;/li&gt;
+&lt;li&gt;Be happy innovators - accomplishing hard things together in a fun, creative way and high five-ing at the end!&lt;/li&gt;
+&lt;li&gt;Have honesty and integrity in all things - We make decisions with the best of intentions that are right for as many stakeholders as possible&lt;/li&gt;
+&lt;li&gt;Always be leveling up - continuously improving, embracing change, and consuming information to solve those really hard problems&lt;/li&gt;
+&lt;li&gt;Move at the speed of WOW - working with a sense of urgency that doesn’t compromise quality&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;Requirements&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Our ideal Site Reliability Engineer will have:&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Proven experience supporting a SaaS platform as Infrastructure As Code&lt;/li&gt;
+&lt;li&gt;Experience building and using blue/green or canary deployment strategies&lt;/li&gt;
+&lt;li&gt;A security-first mindset when building infrastructure&lt;/li&gt;
+&lt;li&gt;Experience building and scaling Amazon EKS clusters&lt;/li&gt;
+&lt;li&gt;Experience deploying highly available applications with Kubernetes&lt;/li&gt;
+&lt;li&gt;Familiarity with monitoring and alerting solutions such as Prometheus and Grafana&lt;/li&gt;
+&lt;li&gt;Likes to code, seeking someone with development competency, ideally Python, Javascript, or C#&lt;/li&gt;
+&lt;li&gt;Knowledge of JIRA, Confluence, Docker, and Github&lt;/li&gt;
+&lt;li&gt;Good communication, presentation and collaborative problem-solving skills&lt;/li&gt;
+&lt;li&gt;Good analytical and organizational skills&lt;/li&gt;
+&lt;li&gt;Team player who has a strong desire to never do the same manual task twice&lt;/li&gt;
+&lt;li&gt;Ability to think proactively and work independently to accomplish goals&lt;/li&gt;
+&lt;li&gt;Self-motivated and able to manage multiple tasks simultaneously&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;To be considered for this Site Reliability Engineer role, you must have: &lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Bachelor’s degree in Computer Science, Information Science, Mathematics, or comparable or relevant work experience&lt;/li&gt;
+&lt;li&gt;3+ years of work experience in an SRE or Infrastructure Engineer role, preferably in a fast-paced web application environment&lt;/li&gt;
+&lt;li&gt;Smart, friendly, gets stuff done&lt;/li&gt;
+&lt;li&gt;Experience in supporting a SaaS infrastructure&lt;/li&gt;
+&lt;li&gt;Experience and interest in hardware and systems; you like the nitty-gritty of web application delivery&lt;/li&gt;
+&lt;li&gt;Working knowledge of TCP/IP, HTTP, TLS, load balancing, DNS, and every step of how a web request gets from the server to the browser&lt;/li&gt;
+&lt;li&gt;Experience building critical production infrastructure with Infrastructure as Code tools such as terraform, pulumi, or CloudFormation&lt;/li&gt;
+&lt;li&gt;Hands-on experience with AWS, Google Cloud or MS Azure&lt;/li&gt;
+&lt;li&gt;Strong propensity for documentation and knowledge sharing&lt;/li&gt;
+&lt;li&gt;Intensely driven and proactive&lt;/li&gt;
+&lt;li&gt;Ability to learn quickly&lt;/li&gt;
+&lt;li&gt;Great team and business communication skills; project management communication ability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/swimlane-site-reliability-engineer-sre"&gt;https://weworkremotely.com/remote-jobs/swimlane-site-reliability-engineer-sre&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Tue, 21 Sep 2021 15:09:16 +0000</pubDate>
+      <expires_at>Mon, 13 Feb 2023 15:09:16 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/swimlane-site-reliability-engineer-sre</guid>
+      <link>https://weworkremotely.com/remote-jobs/swimlane-site-reliability-engineer-sre</link>
+    </item>
+    <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0066/8613/logo.gif" type="image/png"/>
       <title>Census: Senior Full-Stack Engineer</title>
       <region>North America Only</region>
@@ -5167,6 +5184,46 @@
       <expires_at>Sun, 12 Feb 2023 00:34:45 +0000</expires_at>
       <guid>https://weworkremotely.com/remote-jobs/census-senior-full-stack-engineer</guid>
       <link>https://weworkremotely.com/remote-jobs/census-senior-full-stack-engineer</link>
+    </item>
+    <item>
+      <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0018/6549/logo.gif" type="image/png"/>
+      <title>NationBuilder: Senior Software Engineer</title>
+      <region>USA Only</region>
+      <category>Full-Stack Programming</category>
+      <type>Full-Time</type>
+      <description>&lt;img src="https://we-work-remotely.imgix.net/logos/0018/6549/logo.gif?ixlib=rails-4.0.0&amp;w=50&amp;h=50&amp;dpr=2&amp;fit=fill&amp;auto=compress" /&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; Remote within the US
+    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href="http://www.nationbuilder.com"&gt;http://www.nationbuilder.com&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div&gt;
+&lt;br&gt;At NationBuilder we create software for leaders. We work with political candidates and parties, nonprofit organizations, community organizers, and anyone else trying to make something happen in the world. Our customers come in all shapes and sizes, from small town organizers trying to win their school board election, to the largest political parties, candidates, and NGOs in the world. To learn more about NationBuilder, read about our &lt;a href="https://nationbuilder.com/mission"&gt;mission and beliefs&lt;/a&gt;.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;We believe the best products are built by teams rich in diversity and aligned in mission and values. That means creating an authentic culture where diversity thrives everyday. It means building a team where different perspectives are valued through real listening, and assumptions are challenged through healthy and necessary conflict. It means building a team diverse across race and gender.  It means constantly striving to build the best and to be the best. &lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;Our engineering team dedicates itself to continuous learning and improvement. We built a process that is optimized for rapid, agile development; deploying to production many times a day. To discover the correct solution; we start with a minimum viable product and iterate using team and stakeholder feedback; so that the people, product, and process improve together.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;The role of Senior Software Engineer is to build and maintain the software powering NationBuilder.  You contribute to the effectiveness of the team through constant collaboration, efficient use of available resources, and writing software that is easy to reason about and modify in the future. You think critically to find the best solutions, technologies, and processes. You are capable of implementing significant portions of code and investigating extremely complex issues, while following standards of quality for software, testing, and documentation. You break up small to medium size projects into milestones and execute them to completion, anticipating and resolving problems that arise.&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;&lt;strong&gt;You:&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;are always interested in learning new things.&lt;/li&gt;
+&lt;li&gt;get excited when you have the chance to pair.&lt;/li&gt;
+&lt;li&gt;practice test-driven development and judicious refactoring.&lt;/li&gt;
+&lt;li&gt;enjoy being responsive to customer feedback.&lt;/li&gt;
+&lt;li&gt;are a pragmatic problem solver, knowing how to find the middle ground between “perfect, but takes forever to code” and “fixes it now, but nobody will ever be able to understand what I did.”&lt;/li&gt;
+&lt;li&gt;clearly communicate about technical solutions with both engineering and non-engineering stakeholders.&lt;/li&gt;
+&lt;li&gt;work well in small teams with a clear mission.&lt;/li&gt;
+&lt;li&gt;have the insight to know what’s important and the dedication to get it done.&lt;/li&gt;
+&lt;li&gt;Have at least 3-5 years of professional development experience.&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Skills required:&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;The ideal candidate is enthusiastic about working with Ruby on Rails, has a strong technical background, and professional experience with Rails. We value the willingness to learn our technologies and our environment. An open and disciplined approach to your work is as important to us as years of experience with any of the technologies in our stack. &lt;/div&gt;&lt;div&gt;
+&lt;br&gt;We use Ruby, Rails, PostgreSQL, MongoDB, Redis, HTML/CSS/SCSS, and JavaScript (React/Redux/Bootstrap).&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;&lt;div&gt;NationBuilder is an equal opportunity employer and we value inclusion. We are committed to finding talent that is not determined on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. If you are someone who is in search of a place to thrive and grow, we really want to hear from you!&lt;/div&gt;&lt;div&gt;
+&lt;br&gt;To apply, tell us why you're a good fit for the job in 280 characters or less (like a tweet, but you don't have to actually tweet it)!! Include contact details, resume, that sort of thing; sites you’ve worked on recently; Github account (or other online code) if you have it.&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a href="https://weworkremotely.com/remote-jobs/nationbuilder-senior-software-engineer"&gt;https://weworkremotely.com/remote-jobs/nationbuilder-senior-software-engineer&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Wed, 24 Feb 2021 22:13:18 +0000</pubDate>
+      <expires_at>Tue, 14 Feb 2023 22:13:18 +0000</expires_at>
+      <guid>https://weworkremotely.com/remote-jobs/nationbuilder-senior-software-engineer</guid>
+      <link>https://weworkremotely.com/remote-jobs/nationbuilder-senior-software-engineer</link>
     </item>
     <item>
       <media:content url="https://wwr-pro.s3.amazonaws.com/logos/0018/4213/logo.gif" type="image/png"/>

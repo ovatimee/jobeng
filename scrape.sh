@@ -23,8 +23,6 @@ echo "$new_links" >> links.txt
 
 all_links="$new_links $old_links"
 
-# psql -U "$username" -d "$dbname" -h "$host" -p "$port" -c "CREATE TABLE IF NOT EXISTS jobs (title TEXT)" --quiet
-
 declare -A company
 declare -A job
 
@@ -60,11 +58,11 @@ type_id=$(psql -U "$username" -d "$dbname" -h "$host" -p "$port" -t -c "SELECT i
 category_id=$(psql -U "$username" -d "$dbname" -h "$host" -p "$port" -t -c "SELECT id FROM categories WHERE name='${job["locations"]}'")
 job["salary"]=0
 
-INSERT INTO types (name) VALUES ('${job["type"]}')
-ON CONFLICT (name) DO NOTHING;
+psql -U iandeeq -d jobeng -c  "INSERT INTO types (name) VALUES ('${job["type"]}')
+ON CONFLICT (name) DO NOTHING;"
 
-INSERT INTO categories (name) VALUES ('${job["category"]}')
-ON CONFLICT (name) DO NOTHING;
+psql -U iandeeq -d jobeng -c  "INSERT INTO categories (name) VALUES ('${job["category"]}')
+ON CONFLICT (name) DO NOTHING;"
 
 
 psql -U iandeeq -d jobeng -c "INSERT INTO jobs (title, link, description, salary, location, company_name, company_logo, category_id, type_id) VALUES (
@@ -77,18 +75,9 @@ psql -U iandeeq -d jobeng -c "INSERT INTO jobs (title, link, description, salary
     '${company["logo"]}', 
     (SELECT id FROM categories WHERE name = '${job["category"]}'), 
     (SELECT id FROM types WHERE name = '${job["type"]}')
-  );"
-
-# echo "$title", "$job[link]", "$job[description]", "$salary", "$location", "$company[name]", "$company[logo]", 
-# echo "${company[logo]}" "${company["name"]}" "${job["description"]}" "$location" "$tags"
-
+    ) ON CONFLICT (description) DO NOTHING;"
 
 done
-
-# IFS=","
-# query="INSERT INTO job (title, link, description, salary, location, company_name, company_logo, category_id, type_id) VALUES ('$title', '$job[link]', '$job[description]', '$salary', '$location', '$company[name]', '$company[logo]', $category_id, $type_id)"
-# query="INSERT INTO job (title, link, description, salary, location, company_name, company_logo, category_id, type_id) VALUES ${data_array[*]}"
-# psql -U "$username" -d "$dbname" -h "$host" -p "$port" -c "$query"
 
 if test -f "feed.xml"; then
 rm "feed.xml"

@@ -24,7 +24,7 @@ export default function Home({ jobs }: Props) {
       <div className="searched-jobs flex flex-col flex-grow pl-10">
         <div className="searched-bar flex items-center justify-between animate-slideY ">
           <div className="searched-show text-[19px] font-semibold">
-            <p> Showing 0 Jobs </p>
+            <p> Showing {jobs.length} Jobs </p>
           </div>
           <div className="searched-sort">
             Sort by: <span className="post-time">Newest Post </span>

@@ -10,7 +10,7 @@ export default function FilterNav() {
   return (
     <div className="search-menu h-14 whitespace-nowrap flex flex-shrink-0 items-center bg-header-bg-color rounded-lg w-full pl-5">
       <div className="search-bar h-[55px] w-full relative">
-        <input type="text" className="search-box w-full h-full block bg-transparent border-none pr-6 pl-[305px]" autoFocus={true} />
+        <input type="text" className="search-box w-full h-full block bg-transparent border-none pr-6 pl-[305px] outline-none" autoFocus={true} />
         <div className="search item absolute top-[10px] left-6 text-[13px] text-active-color border border-search-border-color py-2 px-[10px] rounded-lg flex items-center">
           <MagnifyingGlassIcon className="w-6 h-6" />
           Product Designer

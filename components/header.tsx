@@ -1,10 +1,13 @@
 import { AdjustmentsVerticalIcon, MoonIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <div className="flex items-center flex-shrink-0 px-10 whitespace-nowrap bg-header-bg-color h-16 w-full text-[14px] justify-between">
       <div className="logo flex flex-col items-center font-semibold text-xs cursor-pointer w-16">
-        <img src="/images/logo.svg" className="w-full mr-3" alt="logo" />
+        <Link href="/">
+          <img src="/images/logo.svg" className="w-full mr-3" alt="logo" />
+        </Link>
       </div>
       <div className="header-menu hidden md:flex space-x-4">
         <a
@@ -13,16 +16,10 @@ export default function Header() {
         >
           Find Job
         </a>
-        <a
-          href="#"
-          className="decoration-none text-body-color font-medium hover:text-active-color"
-        >
+        <a href="#" className="decoration-none text-body-color font-medium hover:text-active-color">
           Company Review
         </a>
-        <a
-          href="#"
-          className="decoration-none text-body-color font-medium hover:text-active-color"
-        >
+        <a href="#" className="decoration-none text-body-color font-medium hover:text-active-color">
           Find Salaries
         </a>
       </div>

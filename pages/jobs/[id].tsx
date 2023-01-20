@@ -37,7 +37,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   const paths = jobs.map((job) => ({
     params: { id: job.id.toString() },
-  }));
+  })).slice(0, 4);
 
   return { paths, fallback: false };
 };

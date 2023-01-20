@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Layout from "../../components/layout";
-import { NextPageContext } from "next";
 import Card from "../../components/card";
 import { Job } from "../../interfaces/Jobs";
 import {
@@ -10,7 +9,6 @@ import {
   ChevronRightIcon,
   ForwardIcon,
 } from "@heroicons/react/24/solid";
-import { useState } from "react";
 import { ParsedUrlQuery } from "querystring";
 
 interface Props {

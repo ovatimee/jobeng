@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./utils/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
@@ -42,8 +43,14 @@ module.exports = {
       },
       boxShadow: {
         "3d": "-6px 0 0 0 #9b9ba5, 6px 0 0 0 #9b9ba5",
+        "btn": "0px 12px 40px -12px rgb(83, 82, 237)"
+      },
+      transitionDuration: {
+        '150': '1.5s',
       },
     },
   },
-  plugins: [require("@tailwindcss/line-clamp")],
+  plugins: [
+    require("@tailwindcss/line-clamp"),
+  ],
 };

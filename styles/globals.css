@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.hero .hero__image .col {
+  flex: 0 0 calc(33.3333% - 1em);
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  line-height: 150px!;
+}
+
+.half {
+  flex: 1 0 50%;
+}
+
+@layer components {
+  .button_a {
+    @apply text-sm font-semibold inline-block min-w-[100px] px-8 leading-[42px] border-2 border-transparent rounded-3xl my-0 mx-1
+  }
+  .light_a {
+    @apply bg-active-light-color rounded-bl-none shadow-btn hover:rounded-tr-none
+  }
+  .dark_a {
+    @apply rounded-tr-none border-2 border-active-color
+  }
+  .animate > div {
+    @apply opacity-0 transition-all  duration-150;
+  }
+  .up.animate > div {
+    @apply translate-y-[20%]
+  }
+  .down.animate > div {
+    @apply translate-y-[-20%]
+  }
+  :is(.up, .down).animate.this > div {
+    @apply translate-y-0 opacity-100
+  }
+  .animate > div:nth-child(2), .animate li:nth-child(1){
+   @apply delay-300
+}
+
+.animate > div:nth-child(3) , .animate li:nth-child(2){
+    @apply delay-500
+}
+
+ .animate li:nth-child(3){
+    @apply delay-700
+}
+
+.animate li:nth-child(4){
+    @apply delay-[.9s]
+}
+
+.animate li:nth-child(5){
+    @apply delay-[1.1s]
+}
+
+}

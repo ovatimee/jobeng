@@ -9,7 +9,7 @@ export default function Card({ job }: Props) {
   // console.log(job.description.replace(/[<br>]+/g, ""))
   if (job.title != " ") {
     return (
-      <div className="job-card py-5 px-4 bg-header-bg-color rounded-lg  transition duration-[0.2s]  transform hover:scale-[1.02] ">
+      <div key={`key-${job.id}`} className="job-card py-5 px-4 bg-header-bg-color rounded-lg  transition duration-[0.2s]  transform hover:scale-[1.02] ">
         <div className="job-card-header flex items-center gap-2">
           <span className="w-11">
             <img

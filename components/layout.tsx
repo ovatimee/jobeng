@@ -16,7 +16,10 @@ export default function Layout({ children, home }: Props) {
     <div className="flex flex-col max-w-[1400px] h-screen my-0 mx-auto overflow-hidden bg-theme-bg-color">
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Learn how to build a personal website using Next.js" />
+        <meta
+          name="description"
+          content="Learn how to build a personal website using Next.js"
+        />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -28,13 +31,13 @@ export default function Layout({ children, home }: Props) {
       </Head>
       <Header />
 
-      <div className="wrapper w-full flex flex-col flex-grow scroll-smooth py-8 px-10 overflow-auto">
-        <FilterNav />
-        <div className="main-container flex flex-grow pt-8">
-          <Aside />
-          {children}
+        <div className="wrapper w-full flex flex-col flex-grow scroll-smooth py-8 px-10 overflow-auto">
+          <FilterNav />
+          <div className="main-container flex flex-grow pt-8">
+            <Aside />
+        {children}
         </div>
-      </div>
+        </div>
     </div>
   );
 }

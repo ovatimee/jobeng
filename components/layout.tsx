@@ -24,7 +24,7 @@ export default function Layout({ children, home }: Props) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <title>Hello World</title>
+        <title>WorkNomads</title>
       </Head>
 
       <div

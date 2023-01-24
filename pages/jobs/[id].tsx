@@ -1,14 +1,13 @@
-import { HeartIcon, ShareIcon } from "@heroicons/react/24/solid";
 import { GetStaticPaths, GetStaticProps } from "next";
-import React from "react";
+import React, { ReactElement } from "react";
 import Layout from "../../components/layout";
 import { Minicard } from "../../components/minicard";
 import { Overview } from "../../components/overview";
-import Aside from "../../components/aside";
-import FilterNav from "../../components/filterNav";
 import { Job } from "../../interfaces/Jobs";
 import { ParsedUrlQuery } from "querystring";
 import axios from "axios";
+import { conn } from "../../server/database";
+import JobsLayout from "../../components/jobs-layout";
 
 interface Props {
   data: Job;
@@ -18,25 +17,24 @@ interface Params extends ParsedUrlQuery {
   id: string;
 }
 
-export default function Product({ data }: Props) {
-
+export default function JobOverview({ data }: Props) {
   return (
-    <Layout>
-      <div className="wrapper w-full flex flex-col flex-grow scroll-smooth py-8 px-10 overflow-auto max-sm:p-5">
-        <FilterNav />
-        <div className="main-container flex flex-grow pt-8 max-md:pt-5">
-          <Aside classNames="max-5xl:hidden" />
-          <div className="job-overview flex flex-grow animate-slide">
-            <div className="job-overview-cards flex flex-col w-[330px] h-full flex-shrink-0 space-y-4 max-xl:hidden">
-              <Minicard />
-            </div>
-            <Overview job={data} />
-          </div>
-        </div>
+    <div className="job-overview flex flex-grow animate-slide">
+      <div className="job-overview-cards flex flex-col w-[330px] h-full flex-shrink-0 space-y-4 max-xl:hidden">
+        <Minicard />
       </div>
-    </Layout>
+      <Overview job={data} />
+    </div>
   );
 }
+
+JobOverview.getLayout = function getLayout(page: ReactElement) {
+  return (
+    <Layout>
+      <JobsLayout>{page}</JobsLayout>
+    </Layout>
+  );
+};
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const res = await fetch("http://localhost:3000/api/jobs");
@@ -46,13 +44,16 @@ export const getStaticPaths: GetStaticPaths = async () => {
     params: { id: job.id.toString() },
   }));
 
-  return { paths, fallback: false };
+  return { paths, fallback: "blocking" };
 };
 
 export const getStaticProps: GetStaticProps<Props, Params> = async ({ params }) => {
   const id = params!.id;
 
-  const { data } = await axios.get(`http://localhost:3000/api/jobs/${id}`);
+  const { rows: [data] } = await conn.query("SELECT * FROM jobs WHERE id = $1", [id]);
+  console.log(data)
+
+  // const { data } = await axios.get(`http://localhost:3000/api/jobs/${id}`);
 
   return { props: { data } };
 };

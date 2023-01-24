@@ -1,5 +1,11 @@
 import React, { useState } from "react";
-export default function Aside() {
+import { classnames } from "../utils/classnames";
+
+interface Props {
+  classNames?: string;
+}
+
+export default function Aside({ classNames }: Props) {
   const [check, setCheck] = useState(1);
 
   function handleChange() {
@@ -31,7 +37,12 @@ export default function Aside() {
   ];
 
   return (
-    <div className="search-type hidden w-[270px] md:flex flex-col h-full flex-shrink-0">
+    <div
+      className={classnames(
+        "search-type  w-[270px] md:flex flex-col h-full flex-shrink-0 max-xs:hidden",
+        classNames
+      )}
+    >
       <div className="sidebar sticky top-0 shadow-none w-full z-initial opacity-100">
         <div className="alert bg-alert-bg-color py-6 px-[18px] rounded-lg">
           <div className="alert-title text-xs font-medium mb-2">Create Job Alert</div>
@@ -54,7 +65,10 @@ export default function Aside() {
             <div className="job-time-title text-[14px] text-sm font-medium">Type of Employment</div>
             <div className="job-wrapper pt-5">
               {types.map((type) => (
-                <div key={`key-${type.id}`} className="type-container flex items-center text-subtitle-color cursor-pointer text-[13px] mt-[10px]">
+                <div
+                  key={`key-${type.id}`}
+                  className="type-container flex items-center text-subtitle-color cursor-pointer text-[13px] mt-[10px]"
+                >
                   <input
                     type="checkbox"
                     id="job1"
@@ -76,7 +90,10 @@ export default function Aside() {
             <div className="job-time-title text-[14px] text-sm font-medium">Seniority Level</div>
             <div className="job-wrapper">
               {seniority.map((e) => (
-                <div  key={`key-${e.id}`} className="type-container flex items-center text-subtitle-color cursor-pointer text-[13px] mt-[10px]">
+                <div
+                  key={`key-${e.id}`}
+                  className="type-container flex items-center text-subtitle-color cursor-pointer text-[13px] mt-[10px]"
+                >
                   <input
                     type="checkbox"
                     id="job7"
@@ -98,7 +115,10 @@ export default function Aside() {
             <div className="job-time-title text-[14px] text-sm font-medium">Salary Range</div>
             <div className="job-wrapper">
               {salary.map((s) => (
-                <div  key={`key-${s.to}`} className="type-container flex items-center text-subtitle-color cursor-pointer text-[13px] mt-[10px]">
+                <div
+                  key={`key-${s.to}`}
+                  className="type-container flex items-center text-subtitle-color cursor-pointer text-[13px] mt-[10px]"
+                >
                   <input type="checkbox" id={`job${s.from}`} className="job-style hidden" />
                   <label className="ml-[2px] flex items-center cursor-pointer before:content=['] before:mr-[10px] before:border before:border-subtitle-color before:rounded before:cursor-pointer before:w-4 before:h-4">{`$${s.from} - $${s.to}`}</label>
                   <span className="job-number ml-auto bg-inactive-color text-subtitle-color text-[10px] font-medium p-1 rounded-[4px]">

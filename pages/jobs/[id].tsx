@@ -4,28 +4,35 @@ import React from "react";
 import Layout from "../../components/layout";
 import { Minicard } from "../../components/minicard";
 import { Overview } from "../../components/overview";
+import Aside from "../../components/aside";
+import FilterNav from "../../components/filterNav";
 import { Job } from "../../interfaces/Jobs";
 import { ParsedUrlQuery } from "querystring";
+import axios from "axios";
 
 interface Props {
-  job: Job;
+  data: Job;
 }
 
 interface Params extends ParsedUrlQuery {
   id: string;
 }
 
-export default function Product({ job }: Props) {
-  console.log(job);
+export default function Product({ data }: Props) {
+
   return (
     <Layout>
-      <div className="job-overview flex flex-grow animate-slide">
-        {/* mini card  */}
-        <div className="job-overview-cards flex flex-col w-[330px] h-full flex-shrink-0 space-y-4">
-          <Minicard />
+      <div className="wrapper w-full flex flex-col flex-grow scroll-smooth py-8 px-10 overflow-auto max-sm:p-5">
+        <FilterNav />
+        <div className="main-container flex flex-grow pt-8 max-md:pt-5">
+          <Aside classNames="max-5xl:hidden" />
+          <div className="job-overview flex flex-grow animate-slide">
+            <div className="job-overview-cards flex flex-col w-[330px] h-full flex-shrink-0 space-y-4 max-xl:hidden">
+              <Minicard />
+            </div>
+            <Overview job={data} />
+          </div>
         </div>
-        {/* overview  */}
-        <Overview job={job} />
       </div>
     </Layout>
   );
@@ -37,7 +44,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   const paths = jobs.map((job) => ({
     params: { id: job.id.toString() },
-  })).slice(0, 4);
+  }));
 
   return { paths, fallback: false };
 };
@@ -45,8 +52,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps<Props, Params> = async ({ params }) => {
   const id = params!.id;
 
-  const res = await fetch(`http://localhost:3000/api/jobs/${id}`);
-  const job = await res.json();
+  const { data } = await axios.get(`http://localhost:3000/api/jobs/${id}`);
 
-  return { props: { job } };
+  return { props: { data } };
 };

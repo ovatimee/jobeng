@@ -3,6 +3,9 @@ import Head from "next/head";
 import Layout from "../../components/layout";
 import Card from "../../components/card";
 import { Job } from "../../interfaces/Jobs";
+import Aside from "../../components/aside";
+import FilterNav from "../../components/filterNav";
+
 import {
   BackwardIcon,
   ChevronLeftIcon,
@@ -42,39 +45,51 @@ export default function Jobs({ jobs, page }: Props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="searched-jobs flex flex-col flex-grow pl-10">
-        <div className="searched-bar flex items-center justify-between animate-slideY ">
-          <div className="searched-show text-[19px] font-semibold">
-            <p> Showing {jobs.length} Jobs </p>
-          </div>
-          <div className="searched-sort">
-            Sort by: <span className="post-time">Newest Post </span>
-            <span className="menu-icon">▼</span>
-          </div>
-        </div>
-        <div className="job-cards pt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-6 animate-slideY ">
-          {jobs.map((job) => (
-            <Card job={job} />
-          ))}
-        </div>
-        <div className="pagination flex items-center mt-4">
-          <div className="ml-auto flex items-center gap-2 px-8  text-xs">
-            <button type="button" disabled={page == 1} className="border-none outline-none">
-              <BackwardIcon className="w-4 h-4" />
-            </button>
-            <button type="button" disabled={page == 1} onClick={handlePrevPage} className="border-none outline-none">
-              <ChevronLeftIcon className="w-4 h-4" />
-            </button>
-            <button className="border-none outline-none" type="button">
-              1
-            </button>
-            <button>2</button>
-            <button type="button" onClick={handleNextPage}>
-              <ChevronRightIcon className="w-4 h-4" />
-            </button>
-            <button>
-              <ForwardIcon className="w-4 h-4" />
-            </button>
+      <div className="wrapper w-full flex flex-col flex-grow scroll-smooth py-8 px-10 overflow-auto max-sm:p-5">
+        <FilterNav />
+        <div className="main-container flex flex-grow pt-8">
+          <Aside />
+
+          <div className="searched-jobs flex flex-col flex-grow pl-10 max-xs:pl-0">
+            <div className="searched-bar flex items-center justify-between animate-slideY max-md:flex-col max-md:items-start">
+              <div className="searched-show text-[19px] font-semibold">
+                <p> Showing {jobs.length} Jobs </p>
+              </div>
+              <div className="searched-sort max-md:mt-[5px]">
+                Sort by: <span className="post-time">Newest Post </span>
+                <span className="menu-icon">▼</span>
+              </div>
+            </div>
+            <div className="job-cards pt-5 grid max-2xl:grid-cols-1 max-xd:grid-cols-1 max-3xl:grid-cols-2  max-xs:grid-cols-2 grid-cols-3 gap-6 animate-slideY ">
+              {jobs.map((job) => (
+                <Card job={job} />
+              ))}
+            </div>
+            <div className="pagination flex items-center mt-4">
+              <div className="ml-auto flex items-center gap-2 px-8  text-xs">
+                <button type="button" disabled={page == 1} className="border-none outline-none">
+                  <BackwardIcon className="w-4 h-4" />
+                </button>
+                <button
+                  type="button"
+                  disabled={page == 1}
+                  onClick={handlePrevPage}
+                  className="border-none outline-none"
+                >
+                  <ChevronLeftIcon className="w-4 h-4" />
+                </button>
+                <button className="border-none outline-none" type="button">
+                  1
+                </button>
+                <button>2</button>
+                <button type="button" onClick={handleNextPage}>
+                  <ChevronRightIcon className="w-4 h-4" />
+                </button>
+                <button>
+                  <ForwardIcon className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

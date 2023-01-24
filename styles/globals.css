@@ -17,7 +17,52 @@
   flex: 1 0 50%;
 }
 
+:where(.grid, .grid__text) h2 span {
+  font-size: calc(0.5em + 1vw);
+  font-weight: 400;
+}
+
+.testimonial .half:first-child {
+    flex: 0 0 90px;
+}
+
+.testimonial .item {
+    padding-left: calc(1em + 3vw);
+}
+
+.testimonial .item p:first-child{
+    position: relative;
+    font-size: 1.5rem;
+    color: inherit;
+    line-height: 1.2;
+    margin-bottom: 1em;
+}
+
+.testimonial .item sub {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    color: theme('backgroundColor.active-color');
+    font-size: 7em;
+    vertical-align: top;
+    font-family: cursive;
+    z-index: -1;
+    opacity: .5;
+
+}
+
+
+
 @layer components {
+  .gridel {
+  @apply flex pt-[50px]
+}
+  .grid__text {
+    @apply flex flex-col gap-12 pt-24 pl-8 h-full
+  }
+  .bg__white {
+    @apply relative overflow-hidden bg-alert-bg-color
+  }
   .button_a {
     @apply text-sm font-semibold inline-block min-w-[100px] px-8 leading-[42px] border-2 border-transparent rounded-3xl my-0 mx-1
   }
@@ -27,7 +72,8 @@
   .dark_a {
     @apply rounded-tr-none border-2 border-active-color
   }
-  .animate > div {
+  .animate > div,
+  .side.animate li {
     @apply opacity-0 transition-all  duration-150;
   }
   .up.animate > div {
@@ -58,5 +104,25 @@
 .animate li:nth-child(5){
     @apply delay-[1.1s]
 }
+  .animate li:nth-child(3){
+   @apply delay-700
+}
+
+.animate li:nth-child(4){
+    @apply delay-[.9s]
+}
+
+.animate li:nth-child(5){
+    @apply delay-[1.1s]
+}
+
+.side.animate li {
+    @apply translate-x-[20%]
+}
+
+.side.animate.this li {
+    @apply translate-x-0 opacity-100
+}
+
 
 }

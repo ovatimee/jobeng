@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { conn } from "../../../utils/database";
+import { conn } from "../../../server/database";
 
 export default async function (req: NextApiRequest, res: NextApiResponse) {
   const {
@@ -17,7 +17,6 @@ export default async function (req: NextApiRequest, res: NextApiResponse) {
       if(result.rowCount === 0) {
         return res.status(404).json({message: "Job not found"})
       }
-      console.log(result.rows)
       return res.json(result.rows[0])
 
     } catch (error: any) {

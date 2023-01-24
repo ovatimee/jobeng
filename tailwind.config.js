@@ -6,6 +6,20 @@ module.exports = {
     "./utils/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    screens: {
+      'max-5xl': { 'max': '1300px' },
+      'max-4xl': { 'max': '990px' },
+      'max-3xl': { 'max': '1212px' },
+      'max-2xl': { 'max': '930px' },
+      'max-xl': { 'max': '760px' },
+      'max-xs': { 'max': '730px' },
+      'max-xd': { 'max': '620px' },
+      'max-lg': { 'max': '590px' },
+      'max-md': { 'max': '520px' },
+      'max-sm': { 'max': '380px' },
+      'md': '992px',
+
+    },
     extend: {
       colors: {
         "body-bg-color": "#e5ecef",
@@ -29,7 +43,7 @@ module.exports = {
           "0%": { transform: "translateY(200px)" },
         },
         slide: {
-          "0%": { transform: 'translateX(300px)', opacity: '0'}
+          "0%": { transform: 'translateX(300px)', opacity: '0' }
         },
         wiggle: {
           "0%, 100%": { transform: "rotate(-3deg)" },
@@ -48,9 +62,19 @@ module.exports = {
       transitionDuration: {
         '150': '1.5s',
       },
+      rotate: {
+        '340': '340deg'
+      },
+      blur: {
+        '4xl': '100px',
+      },
+      fontFamily: {
+        'cursive': ['cursive']
+      }
     },
   },
   plugins: [
     require("@tailwindcss/line-clamp"),
+    require('@headlessui/tailwindcss')({ prefix: 'ui' })
   ],
 };

@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Aside from "./aside";
-import FilterNav from "./filterNav";
-// import type { AppProps } from 'next/app'
 import Header from "./header";
+import { classnames } from "../utils/classnames";
+import Footer from "./home/footer";
 
 interface Props {
   children: React.ReactNode;
@@ -13,13 +12,10 @@ const siteTitle: string = "Home";
 
 export default function Layout({ children, home }: Props) {
   return (
-    <div className="flex flex-col max-w-[1400px] h-screen my-0 mx-auto overflow-hidden bg-theme-bg-color">
+    <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="Learn how to build a personal website using Next.js" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -28,16 +24,18 @@ export default function Layout({ children, home }: Props) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <title>Hello World</title>
       </Head>
-      <Header />
 
-        <div className="wrapper w-full flex flex-col flex-grow scroll-smooth py-8 px-10 overflow-auto">
-          <FilterNav />
-          <div className="main-container flex flex-grow pt-8">
-            <Aside />
+      <div
+        className={classnames(
+          "flex flex-col max-w-[1400px]  my-0 mx-auto bg-theme-bg-color",
+          { "overflow-hidden h-screen": !home }
+        )}
+      >
+        <Header />
         {children}
-        </div>
-        </div>
-    </div>
+      </div>
+    </>
   );
 }

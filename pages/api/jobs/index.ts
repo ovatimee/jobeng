@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { conn } from "../../../utils/database";
+import { conn } from "../../../server/database";
 
 export default async function (req: NextApiRequest, res: NextApiResponse) {
   const { method, body, query } = req;

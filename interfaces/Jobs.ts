@@ -1,5 +1,5 @@
 export interface Job {
-  id?: Number | String;
+  id: Number | String;
   title: string;
   link: string;
   company: string;

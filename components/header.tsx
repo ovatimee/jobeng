@@ -7,28 +7,26 @@ interface Props {
 
 export default function Header({ home }: Props) {
   return (
-    <div
-      className={`leading-[70px] lg:leading-[150px] flex items-center flex-shrink-0 px-10 whitespace-nowrap bg-header-bg-color  w-full text-[14px] justify-between mx-auto ${
-        home ? home : ""
-      }`}
-    >
+    <div className="leading-[90px] md:leading-[140px] flex items-center flex-shrink-0 px-10 whitespace-nowrap bg-header-bg-color  w-full text-[14px] justify-between mx-auto max-sm:py-0 max-sm:px-5">
       <div className="logo flex flex-col items-center font-semibold text-xs cursor-pointer w-16">
         <Link href="/">
           <img src="/images/logo.svg" className="w-full mr-3" alt="logo" />
         </Link>
       </div>
-      <div className="header-menu hidden lg:flex space-x-4">
+      <div className="header-menu hidden md:flex space-x-4 max-lg:hidden">
         <a
           href="#"
-          className="decoration-none text-body-color font-medium hover:text-active-color active:text-active-color"
+          className="decoration-none text-body-color font-medium hover:text-active-color active:text-active-color max-xd:ml-[10px]"
         >
-          Find Job
+          Find Jobs
         </a>
-        <a href="#" className="decoration-none text-body-color font-medium hover:text-active-color">
-          Company Review
+        <a href="#" className="decoration-none text-body-color font-medium hover:text-active-color max-xd:ml-[10px]">
+          Explore Candidates
+          {/* Company Review */}
         </a>
-        <a href="#" className="decoration-none text-body-color font-medium hover:text-active-color">
-          Find Salaries
+        <a href="#" className="decoration-none text-body-color font-medium hover:text-active-color max-xd:ml-[10px]">
+          Interview Prep
+          {/* Find Salaries */}
         </a>
       </div>
       <div className=" flex items-center font-medium">
@@ -41,7 +39,7 @@ export default function Header({ home }: Props) {
 
         <div className="ml-3 hidden md:flex items-center">
           <img
-            className="user-profile w-9 rounded-full mr-2 text-active-color"
+            className="user-profile w-9 rounded-full mr-2 text-active-color max-xl:mr-0"
             src="/images/avarter.jpg"
             alt=""
           />

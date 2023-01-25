@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="footer_links">
               <h3 className="mb-4 font-semibold">About</h3>
               <ul className="leading-7 text-[90%]">
-                {["The Blog", "Customers", "Our Team", "Careers", "Partners", "Investors"].map(
+                {["Blog",  "Our Team", "Careers", "Partners", "Investors"].map(
                   (e) => (
                     <li key={e}>
                       <a className="text-placeholder-color" href="">
@@ -24,7 +24,7 @@ export default function Footer() {
             <div className="footer_links">
               <h3 className="mb-4 font-semibold">Get Started</h3>
               <ul className="leading-7 text-[90%]">
-                {["Remote Access", "Sign Up", "FAQS", "Tutorials"].map((e) => (
+                {["Remote Access", "Sign Up", "FAQS", "Courses"].map((e) => (
                   <li key={e}>
                     <a className="text-placeholder-color" href="">
                       {e}
@@ -36,7 +36,7 @@ export default function Footer() {
             <div className="footer_links">
               <h3 className="mb-4 font-semibold">Legal</h3>
               <ul className="leading-7 text-[90%]">
-                {["Terms of Service", "Privacy Policy", "Report Sca,"].map((e) => (
+                {["Terms of Service", "Privacy Policy"].map((e) => (
                   <li key={e}>
                     <a className="text-placeholder-color" href="">
                       {e}
@@ -62,7 +62,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="copyright my-8 mx-0 py-4 px-0 text-placeholder-color text-center border-t border-t-[#3f3b4a]">
-          <p>Copyright &copy;2022 - .Meetup</p>
+          <p>Copyright &copy;2023 - Ovatimee</p>
         </div>
       </div>
     </footer>

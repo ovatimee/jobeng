@@ -50,10 +50,13 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps<Props, Params> = async ({ params }) => {
   const id = params!.id;
 
-  const { rows: [data] } = await conn.query("SELECT * FROM jobs WHERE id = $1", [id]);
-  console.log(data)
+  const {
+    rows: [data],
+  } = await conn.query("SELECT * FROM jobs WHERE id = $1", [id]);
+  const { rows: categories } = await conn.query("SELECT * FROM categories;");
+  const { rows: types } = await conn.query("SELECT * FROM types;");
 
   // const { data } = await axios.get(`http://localhost:3000/api/jobs/${id}`);
 
-  return { props: { data } };
+  return { props: { data, categories, types } };
 };

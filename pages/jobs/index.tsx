@@ -30,17 +30,16 @@ interface Props {
 const Jobs: NextPageWithLayout = ({ rows, page, count }: Props) => {
   const router = useRouter();
   const ref = useRef<HTMLDivElement>(null);
-  const getPages = (length: number, inc: number = 1) => Array.from({ length }, (_, i) => i + inc);
 
-  const totalPages = Math.ceil(count / 10);
+  // const totalPages = Math.ceil(count / 10);
 
-  useEffect(() => {
-    if (ref.current) {
-      ref.current.scrollIntoView({
-        behavior: "smooth",
-      });
-    }
-  }, [page]);
+  // useEffect(() => {
+  //   if (ref.current) {
+  //     ref.current.scrollIntoView({
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // }, [page]);
 
   const handlePrevPage = () => {
     if (page > 1) {
@@ -107,24 +106,63 @@ Jobs.getLayout = function getLayout(page: ReactElement) {
 
 export async function getServerSideProps({ query }: ParsedUrlQuery) {
   const page = query.page ? parseInt(query.page) : 1;
+
   const limit = 10;
   const offset = (page - 1) * limit;
-  // console.log(page);
+  let params = [];
 
-  // const { data: rows } = await axios.get(`http://localhost:3000/api/jobs?page=${page}`);
-  const { rows } = await conn.query(
-    `SELECT jobs.*, types.name as type, categories.name as category FROM jobs LEFT JOIN types ON jobs.type_id = types.id LEFT JOIN categories ON jobs.category_id = categories.id LIMIT ${limit} OFFSET ${offset};`
-  );
+  let currentPosition = 1;
+
+  let sql = `SELECT jobs.*, types.name as type, categories.name as category FROM jobs LEFT JOIN types ON jobs.type_id = types.id LEFT JOIN categories ON jobs.category_id = categories.id`;
+
+  if (query.location !== undefined) {
+    sql += ` WHERE location ILIKE '%' || $${currentPosition} || '%'`;
+    params.push(query.location);
+    currentPosition++;
+  }
+  if (query.type !== undefined) {
+    if (params.length === 0) {
+      query += ` WHERE`;
+    } else {
+      query += ` AND`;
+    }
+    sql += `type_id = (SELECT types.id FROM types WHERE types.name = $${currentPosition})`;
+    params.push(query.type);
+    currentPosition++;
+  }
+  if (query.category !== undefined) {
+    if (params.length === 0) {
+      sql += ` WHERE`;
+    } else {
+      sql += ` AND`;
+    }
+    sql += ` category_id = (SELECT categories.id FROM categories WHERE categories.name = $${currentPosition})`;
+    params.push(query.category);
+    currentPosition++;
+  }
+  sql += ` LIMIT $${currentPosition} OFFSET $${currentPosition + 1};`;
+
+
+  params.push(limit);
+  params.push(offset);
+
+  const { rows } = await conn.query(sql, params);
+
+  // const { rows } = await conn.query(
+  //   `SELECT jobs.*, types.name as type, categories.name as category FROM jobs LEFT JOIN types ON jobs.type_id = types.id LEFT JOIN categories ON jobs.category_id = categories.id LIMIT ${limit} OFFSET ${offset};`
+  // );
 
   const {
     rows: [{ count: count }],
   } = await conn.query("SELECT COUNT(*) FROM jobs");
 
-  console.log(count);
+  const { rows: categories } = await conn.query("SELECT * FROM categories;");
+  const { rows: types } = await conn.query("SELECT * FROM types;");
+  // console.log(categories)
 
   // pages: Math.ceil(count / limit)
   return {
-    props: { rows, page, count },
+    props: { rows, page, count, categories, types },
   };
 }
 

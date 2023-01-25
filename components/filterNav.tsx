@@ -7,6 +7,7 @@ import {
   MapPinIcon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
+import { useRouter } from "next/router";
 import { useState, MouseEvent } from "react";
 // -[305px]
 
@@ -17,37 +18,43 @@ interface Props {
   salaryRanges?: string;
 }
 
-export default function FilterNav({ location, jobTypes, jobCategories }: Props) {
-  const [selectedType, setSelectedType] = useState({});
-  const [selectedLocation, setSelectedLocation] = useState({});
-  const [selectedCategory, setSelectedCategory] = useState({});
+const locations = [
+  { id: 1, name: "Anywhere" },
+  { id: 2, name: "Europe" },
+  { id: 3, name: "Asia" },
+  { id: 4, name: "Americas" },
+];
+
+export default function FilterNav({ jobTypes, jobCategories }: Props) {
+  const [selectedType, setSelectedType] = useState("");
+  const [selectedLocation, setSelectedLocation] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("");
 
   const [query, setQuery] = useState("");
 
-  const locations = [
-    { id: 1, name: "Anywhere" },
-    { id: 2, name: "Europe" },
-    { id: 3, name: "Asia" },
-    { id: 4, name: "Americas" },
-  ];
+  const router = useRouter();
 
-  const handleChange = (e) => {
-    const { value } = e.target;
-    setQuery(value);
+  const filter = (query: string, arr: []): void => {
+    query === ""
+      ? arr
+      : arr.filter((e) => {
+          return e.name.toLowerCase().includes(query.toLowerCase());
+        });
   };
-
-  // const filteredPeople =
-  //   query === ""
-  //     ? jobCategories
-  //     : jobCategories.filter((person) => {
-  //         return person.name.toLowerCase().includes(query.toLowerCase());
-  //       });
 
 
   const handleSearch = (e: MouseEvent): void => {
     e.preventDefault();
-    // Make the job search request here
-    console.log("clicked");
+
+    const { query } = router;
+    if (selectedLocation !== "") query.location = selectedLocation;
+    if (selectedType) query.type = selectedType;
+    if (selectedCategory) query.category = selectedCategory;
+
+    router.push({
+      pathname: router.pathname,
+      query: query,
+    });
   };
 
   return (
@@ -59,7 +66,7 @@ export default function FilterNav({ location, jobTypes, jobCategories }: Props) 
           </span>
           <Combobox.Input
             onChange={(event) => setQuery(event.target.value)}
-            displayValue={(category) => category.name}
+            // displayValue={(category) => category}
             className="search-box w-full h-full block bg-transparent border-none pr-6 pl-9 outline-none max-md:p-0 max-md:pl-[30px]"
             placeholder="Categories"
             autoFocus
@@ -68,7 +75,7 @@ export default function FilterNav({ location, jobTypes, jobCategories }: Props) 
             {jobCategories?.map((category) => (
               <Combobox.Option
                 key={category["id"]}
-                value={category}
+                value={category["name"]}
                 className="ui-active:bg-blue-500 ui-active:text-white ui-not-active:bg-white ui-not-active:text-black w-full text-sm px-2"
               >
                 {/* <CheckIcon className="hidden ui-selected:block" /> */}
@@ -77,22 +84,13 @@ export default function FilterNav({ location, jobTypes, jobCategories }: Props) 
             ))}
           </Combobox.Options>
         </Combobox>
-        {/* <div className="search item absolute top-[10px] left-6 text-[13px] text-active-color border border-search-border-color py-2 px-[10px] rounded-lg flex items-center max-md:hidden"> */}
-        {/*   Product Designer */}
-        {/*   <XMarkIcon className="w-6 h-6" /> */}
-        {/* </div> */}
-        {/* <div className="search item item absolute top-[10px] left-[189px] text-[13px] text-active-color border border-search-border-color py-2 px-[10px] rounded-lg flex items-center max-md:hidden"> */}
-        {/*   UI Designer */}
-        {/*   <XMarkIcon className="w-6 h-6" /> */}
-        {/* </div> */}
       </div>
       <div className="search-location relative flex items-center w-[50%] text-xs font-medium px-6 h-full max-xs:hidden">
         <Combobox value={selectedLocation} onChange={setSelectedLocation}>
           <MapPinIcon className="w-6 h-6 mr- text-active-color flex-shrink-0" />
           <Combobox.Input
-            onChange={(event) => handleChange(event)}
-            value={query}
-            displayValue={(location) => location.name}
+            onChange={(event) => setQuery(event.target.value)}
+            // displayValue={(location) => location["name"]}
             className="w-full border-none py-2 pl-3 pr-10 text-sm leading-5 text-gray-900 focus:ring-0 outline-none"
             placeholder="Location"
           />
@@ -100,10 +98,9 @@ export default function FilterNav({ location, jobTypes, jobCategories }: Props) 
             {locations?.map((location) => (
               <Combobox.Option
                 key={location.id}
-                value={location}
+                value={location["name"]}
                 className="ui-active:bg-blue-500 ui-active:text-white ui-not-active:bg-white ui-not-active:text-black w-full text-sm px-2"
               >
-                <CheckIcon className="hidden ui-selected:block" />
                 {location.name}
               </Combobox.Option>
             ))}
@@ -115,7 +112,7 @@ export default function FilterNav({ location, jobTypes, jobCategories }: Props) 
           <BriefcaseIcon className="w-6 h-6 mr-2  text-active-color flex-shrink-0" />
           <Combobox.Input
             onChange={(event) => setQuery(event.target.value)}
-            displayValue={(type) => type.name}
+            // displayValue={(type) => type.name}
             className="w-full border-none py-2 pl-3 pr-10 text-sm leading-5 text-gray-900 focus:ring-0 outline-none"
             placeholder="Job Type"
           />
@@ -123,7 +120,7 @@ export default function FilterNav({ location, jobTypes, jobCategories }: Props) 
             {jobTypes?.map((type) => (
               <Combobox.Option
                 key={type["id"]}
-                value={type}
+                value={type["name"]}
                 className="ui-active:bg-blue-500 ui-active:text-white ui-not-active:bg-white ui-not-active:text-black w-full  text-sm px-2"
               >
                 {/* <CheckIcon className="hidden ui-selected:block" /> */}

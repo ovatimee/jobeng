@@ -34,13 +34,13 @@ export default function FilterNav({ jobTypes, jobCategories }: Props) {
 
   const router = useRouter();
 
-  const filter = (query: string, arr: []): void => {
-    query === ""
-      ? arr
-      : arr.filter((e) => {
-          return e.name.toLowerCase().includes(query.toLowerCase());
-        });
-  };
+  // const filter = (query: string, arr: []): void => {
+  //   query === ""
+  //     ? arr
+  //     : arr.filter((e) => {
+  //         return e.name.toLowerCase().includes(query.toLowerCase());
+  //       });
+  // };
 
 
   const handleSearch = (e: MouseEvent): void => {

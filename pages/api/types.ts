@@ -8,7 +8,7 @@ export default async function(req: NextApiRequest, res: NextApiResponse) {
   try {
     const {rows}  = await conn.query("SELECT * FROM types")
     return res.status(200).json(rows);
-  } catch (error: unknown) {
+  } catch (error: any) {
     res.status(400).json({message: error.message})
   }
 

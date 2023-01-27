@@ -14,3 +14,11 @@ export interface Job {
   seniority?: String;
   category: String;
 }
+
+export interface Testimony {
+  text: string;
+  author: string;
+  company: string;
+  image: string;
+}
+

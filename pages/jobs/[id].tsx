@@ -5,7 +5,6 @@ import { Minicard } from "../../components/minicard";
 import { Overview } from "../../components/overview";
 import { Job } from "../../interfaces/Jobs";
 import { ParsedUrlQuery } from "querystring";
-import axios from "axios";
 import { conn } from "../../server/database";
 import JobsLayout from "../../components/jobs-layout";
 
@@ -37,10 +36,9 @@ JobOverview.getLayout = function getLayout(page: ReactElement) {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const res = await fetch("http://localhost:3000/api/jobs");
-  const jobs = await res.json();
+  const { rows } = await conn.query("SELECT * FROM jobs;");
 
-  const paths = jobs.map((job) => ({
+  const paths = rows.map((job: Job) => ({
     params: { id: job.id.toString() },
   }));
 
@@ -53,10 +51,9 @@ export const getStaticProps: GetStaticProps<Props, Params> = async ({ params }) 
   const {
     rows: [data],
   } = await conn.query("SELECT * FROM jobs WHERE id = $1", [id]);
+
   const { rows: categories } = await conn.query("SELECT * FROM categories;");
   const { rows: types } = await conn.query("SELECT * FROM types;");
-
-  // const { data } = await axios.get(`http://localhost:3000/api/jobs/${id}`);
 
   return { props: { data, categories, types } };
 };

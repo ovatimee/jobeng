@@ -7,15 +7,15 @@ export function classnames(...args: ClassValue[]) {
 
     const argType = typeof arg;
     if (argType === "string" || argType === "number") {
-      classes.push(arg);
+      classes.push(arg as string);
     } else if (Array.isArray(arg) && arg.length) {
       const inner = classnames(...arg);
       if (inner) {
         classes.push(inner);
       }
     } else if (argType === "object") {
-      for (const key in arg) {
-        if (arg[key]) {
+      for (const [key, value] of Object.entries(arg)) {
+        if (value) {
           classes.push(key);
         }
       }
@@ -23,4 +23,3 @@ export function classnames(...args: ClassValue[]) {
   }
   return classes.join(" ");
 }
-

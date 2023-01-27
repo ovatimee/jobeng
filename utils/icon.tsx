@@ -5,7 +5,7 @@ interface IconProps {
   className?: string;
 }
 
-const icons = {
+const icons: { [key: string]: React.ReactElement } = {
   google: (
     <svg
       stroke="currentColor"
@@ -147,7 +147,7 @@ const icons = {
   ),
 };
 
-const Icon: React.FC<IconProps> = ({ name, className }) => {
+const Icon: React.FC<IconProps> = ({ name, className }: IconProps) => {
   const icon = icons[name]
 
   if (!icon) {

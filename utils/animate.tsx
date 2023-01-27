@@ -2,7 +2,7 @@ import React, {useRef, useEffect} from "react";
 
 
 interface AnimateProps {
-  className: string;
+  className?: string;
   children: React.ReactNode;
 }
 
@@ -20,7 +20,8 @@ const Animate: React.FC<AnimateProps> = ({ children, className }) => {
       });
     });
 
-    io.observe(ref.current);
+    io.observe(ref.current as Element);
+
 
     return () => {
       io.disconnect();
@@ -34,3 +35,4 @@ const Animate: React.FC<AnimateProps> = ({ children, className }) => {
 
 
 export default Animate
+

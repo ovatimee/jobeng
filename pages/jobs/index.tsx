@@ -12,13 +12,8 @@ import {
   ForwardIcon,
 } from "@heroicons/react/24/solid";
 
-import { ParsedUrlQuery } from "querystring";
 import { conn } from "../../server/database";
-
 import { Job } from "../../interfaces/Jobs";
-import type { NextPageWithLayout } from "../_app";
-import axios from "axios";
-import Link from "next/link";
 import Pagination from "../../components/pagination";
 
 interface Props {
@@ -27,19 +22,9 @@ interface Props {
   count: number;
 }
 
-const Jobs: NextPageWithLayout = ({ rows, page, count }: Props) => {
+const Jobs = ({ rows, page, count }: Props) => {
   const router = useRouter();
   const ref = useRef<HTMLDivElement>(null);
-
-  // const totalPages = Math.ceil(count / 10);
-
-  // useEffect(() => {
-  //   if (ref.current) {
-  //     ref.current.scrollIntoView({
-  //       behavior: "smooth",
-  //     });
-  //   }
-  // }, [page]);
 
   const handlePrevPage = () => {
     if (page > 1) {
@@ -104,44 +89,49 @@ Jobs.getLayout = function getLayout(page: ReactElement) {
   );
 };
 
-export async function getServerSideProps({ query }: ParsedUrlQuery) {
-  const page = query.page ? parseInt(query.page) : 1;
+export async function getServerSideProps(context: {
+  query: Record<string, string | string[] | number | undefined>;
+}) {
+  let { location, type, category } = context.query;
+  const page = context.query.page ? parseInt(context.query.page as string) : 1;
+
+
 
   const limit = 10;
-  const offset = (page - 1) * limit;
+  const offset = ((page !== undefined ? Number(page) : 1) - 1) * limit;
+
   let params = [];
 
   let currentPosition = 1;
 
   let sql = `SELECT jobs.*, types.name as type, categories.name as category FROM jobs LEFT JOIN types ON jobs.type_id = types.id LEFT JOIN categories ON jobs.category_id = categories.id`;
 
-  if (query.location !== undefined) {
+  if (location !== undefined) {
     sql += ` WHERE location ILIKE '%' || $${currentPosition} || '%'`;
-    params.push(query.location);
+    params.push(location);
     currentPosition++;
   }
-  if (query.type !== undefined) {
+  if (type !== undefined) {
     if (params.length === 0) {
-      query += ` WHERE`;
+      sql += ` WHERE`;
     } else {
-      query += ` AND`;
+      sql += ` AND`;
     }
     sql += `type_id = (SELECT types.id FROM types WHERE types.name = $${currentPosition})`;
-    params.push(query.type);
+    params.push(type);
     currentPosition++;
   }
-  if (query.category !== undefined) {
+  if (category !== undefined) {
     if (params.length === 0) {
       sql += ` WHERE`;
     } else {
       sql += ` AND`;
     }
     sql += ` category_id = (SELECT categories.id FROM categories WHERE categories.name = $${currentPosition})`;
-    params.push(query.category);
+    params.push(category);
     currentPosition++;
   }
   sql += ` LIMIT $${currentPosition} OFFSET $${currentPosition + 1};`;
-
 
   params.push(limit);
   params.push(offset);

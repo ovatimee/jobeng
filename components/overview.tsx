@@ -15,7 +15,7 @@ export const Overview = ({ job }: Props) => {
         src={`https://unsplash.it/640/425?image=${Math.floor(Math.random() * 10)}`}
       />
       <div className="job-logos -mt-8 relative -mb-9 px-5">
-        <img src={job.company_logo.replace(/['"]+/g, "")} alt="logo" className="w-16 p-1 bg-white rounded-lg border-4 border-header-bg-color" />
+        <img src={job.company_logo?.replace(/['"]+/g, "")} alt="logo" className="w-16 p-1 bg-white rounded-lg border-4 border-header-bg-color" />
       </div>
       <div className="job-explain-content pt-[50px] pb-[30px] px-8">
         <div className="job-title-wrapper flex items-center">

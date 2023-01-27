@@ -6,7 +6,7 @@ export default async function (req: NextApiRequest, res: NextApiResponse) {
 
   if (method === "GET") {
     try {
-      const page = parseInt(query.page) || 1;
+      const page = parseInt(query.page as string) || 1;
       const limit = 12;
       const offset = (page - 1) * limit;
 
@@ -19,3 +19,4 @@ export default async function (req: NextApiRequest, res: NextApiResponse) {
     }
   }
 }
+

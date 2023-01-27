@@ -1,13 +1,13 @@
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 import React, { useState } from "react";
 import Animate from "../../utils/animate";
+import { Testimony } from "../../interfaces/Jobs";
 
-interface Testimony {
-  text: string;
-  author: string;
+interface Testimonies {
+  testimonies: Testimony[];
 }
 
-export default function Testimonials({ testimonies }) {
+export default function Testimonials({ testimonies }: Testimonies) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrevClick = () => {
@@ -32,10 +32,16 @@ export default function Testimonials({ testimonies }) {
             </div>
           </div>
           <div className="absolute top-[35%] left-0 right-0 flex justify-between px-5 md:px-0 md:justify-around ">
-            <button className="bg-gray-300 text-black rounded-full p-2 opacity-50" onClick={handlePrevClick}>
+            <button
+              className="bg-gray-300 text-black rounded-full p-2 opacity-50"
+              onClick={handlePrevClick}
+            >
               <ChevronLeftIcon className="w-6 h-6  text-subtitle-color" />
             </button>
-            <button className="bg-gray-300 text-black rounded-full p-2 opacity-50" onClick={handleNextClick}>
+            <button
+              className="bg-gray-300 text-black rounded-full p-2 opacity-50"
+              onClick={handleNextClick}
+            >
               <ChevronRightIcon className="w-6 h-6  text-subtitle-color" />
             </button>
           </div>

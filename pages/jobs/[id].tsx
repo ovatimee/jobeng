@@ -36,13 +36,13 @@ JobOverview.getLayout = function getLayout(page: ReactElement) {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const { rows } = await conn.query("SELECT * FROM jobs;");
+  // const { rows } = await conn.query("SELECT * FROM jobs;");
 
-  const paths = rows.map((job: Job) => ({
-    params: { id: job.id.toString() },
-  }));
+  // const paths = rows.map((job: Job) => ({
+  //   params: { id: job.id.toString() },
+  // }));
 
-  return { paths, fallback: "blocking" };
+  return { paths: [], fallback: "blocking" };
 };
 
 export const getStaticProps: GetStaticProps<Props, Params> = async ({ params }) => {

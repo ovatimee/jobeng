@@ -8,7 +8,7 @@ interface Props {
 
 export default function Header({ home, user }: Props) {
   return (
-    <div className="leading-[90px] md:leading-[140px] flex items-center flex-shrink-0 px-10 whitespace-nowrap bg-header-bg-color  w-full text-[14px] justify-between mx-auto max-sm:py-0 max-sm:px-5">
+    <div className="leading-[90px] md:leading-[130px] flex items-center flex-shrink-0 px-10 whitespace-nowrap bg-header-bg-color  w-full text-[14px] justify-between mx-auto max-sm:py-0 max-sm:px-5">
       <div className="logo flex flex-col items-center font-semibold text-xs cursor-pointer w-16">
         <Link href="/">
           <img src="/images/logo.svg" className="w-full mr-3" alt="logo" />

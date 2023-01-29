@@ -1,8 +1,8 @@
 import React from "react";
 import { UserCircleIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
-import Header from "../../components/header";
 import Animate from "../../utils/animate";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -44,15 +44,17 @@ export default function Hero() {
             <div className="hero__image flex justify-between max-w-[320px] m-auto">
               <Animate className="col left up relative -top-[50px]">
                 <div className="pic relative min-h-[250px] rounded-[70px] mb-4 overflow-hidden h-[350px] bg-[#feca57] ">
-                  <img
-                    src="/images/pexels-antoni-shkraba-5244072.jpg"
+                  <Image
+                    src="https://i.postimg.cc/XqmcQLNg/pexels-antoni-shkraba-5244072.jpg"
+                    fill
                     alt=""
                     className="absolute left-0 bottom-0 object-cover w-full h-full"
                   />
                 </div>
                 <div className="pic relative min-h-[250px]  rounded-[70px] mb-4 overflow-hidden bg-[#0abde3]">
-                  <img
-                    src="/images/pexels-ivan-samkov-7620727.jpg"
+                  <Image
+                    src="https://i.postimg.cc/1XkwpzMC/pexels-ivan-samkov-7620727.jpg"
+                    fill
                     alt=""
                     className="absolute left-0 bottom-0 object-cover w-full h-full"
                   />
@@ -60,22 +62,28 @@ export default function Hero() {
               </Animate>
               <Animate className="col middle down animate  relative -top-[250px] -mb-[250px]">
                 <div className="pic relative min-h-[250px] bg-active-color rounded-[70px] mb-4 overflow-hidden h-[400px]">
-                  <img
-                    src="/images/pexels-blue-bird-7242974-removebg-preview.png"
+                  <Image
+                    // src="/images/pexels-blue-bird-7242974-removebg-preview.png"
+                    src="https://i.postimg.cc/DZCSczfQ/pexels-blue-bird-7242974-removebg-preview.png"
+                    height={320}
+                    width={240}
                     alt=""
                     className="absolute left-0 bottom-0 object-cover w-full"
                   />
                 </div>
                 <div className="pic relative min-h-[250px] bg-[#c8d6e5] rounded-[70px] mb-4 overflow-hidden h-[300px] ">
-                  <img
-                    src="/images/person4.png"
+                  <Image
+                    src="https://i.postimg.cc/d3kVmmxv/person4.png"
+                    height={320}
+                    width={240}
                     alt=""
                     className="absolute left-0 bottom-0 object-cover w-full"
                   />
                 </div>
                 <div className="pic relative min-h-[250px] bg-[#222f3e] rounded-[70px] mb-4 overflow-hidden h-[300px]">
-                  <img
-                    src="/images/pexels-anna-tarazevich-5481249.jpg"
+                  <Image
+                    src="https://i.postimg.cc/7ZMYVLmC/pexels-anna-tarazevich-5481249.jpg"
+                    fill
                     alt=""
                     className="absolute left-0 bottom-0 object-cover w-full h-full"
                   />
@@ -83,15 +91,18 @@ export default function Hero() {
               </Animate>
               <Animate className="col right up animate  relative top-[50px]">
                 <div className="pic relative min-h-[250px] bg-[#ee5253] rounded-[70px] mb-4 overflow-hidden h-[350px]">
-                  <img
-                    src="/images/pexels-tima-miroshnichenko-6196572.jpg"
+                  <Image
+                    src="https://i.postimg.cc/FsPQsJWV/pexels-tima-miroshnichenko-6196572.jpg"
+                    fill
                     alt=""
                     className="absolute left-0 bottom-0 object-cover w-full h-full"
                   />
                 </div>
                 <div className="pic relative min-h-[250px] bg-[#54a0ff] rounded-[70px] mb-4 overflow-hidden h-[300px]">
-                  <img
-                    src="/images/person7.png"
+                  <Image
+                    src="https://i.postimg.cc/rmgfC5th/person7.png"
+                    height={320}
+                    width={240}
                     alt=""
                     className="absolute left-0 bottom-0 object-cover w-full"
                   />

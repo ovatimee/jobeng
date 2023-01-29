@@ -63,7 +63,7 @@ export const getStaticProps: GetStaticProps<Props, Params> = async ({ params }) 
     categories.name as category 
     FROM jobs LEFT JOIN types ON jobs.type_id = types.id 
     LEFT JOIN categories ON jobs.category_id = categories.id 
-    WHERE $1 = categories.id;`
+    WHERE $1 = categories.id AND jobs.id != $2;`
 
   const {
     rows: [data],
@@ -71,7 +71,8 @@ export const getStaticProps: GetStaticProps<Props, Params> = async ({ params }) 
 
   const { rows: categories } = await conn.query("SELECT * FROM categories;");
   const { rows: types } = await conn.query("SELECT * FROM types;");
-  const { rows: relate } = await conn.query(relatedQuery, [data.category_id]);
+  const { rows: relate } = await conn.query(relatedQuery, [data.category_id, data.id]);
+  console.log(data)
 
   return { props: { data, categories, types, related: relate } };
 };

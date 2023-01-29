@@ -8,7 +8,7 @@ interface Props {
 
 export const Overview = ({ job }: Props) => {
   return (
-    <div key={`key-${job.id}`} className="job-explain bg-header-bg-color ml-10 rounded-bl-lg max-xl:ml-0">
+    <div key={`key-${job.id}`} className="job-explain bg-header-bg-color ml-10 rounded-bl-lg max-xl:ml-0 h-full overflow-scroll">
       <img
         className="job-bg rounded-tr-lg object-cover w-full h-44  transition duration-[0.3s] relative"
         alt=""

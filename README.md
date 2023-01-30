@@ -1,8 +1,9 @@
 <p align="center">
-[![Banner](https://i.postimg.cc/fyySTx63/The-Future-Is-remote.png)](https://jobeng.vercel.com)
+<!-- [![Banner](https://i.postimg.cc/fyySTx63/The-Future-Is-remote.png)](https://jobeng.vercel.com) -->
+<img src="https://i.postimg.cc/fyySTx63/The-Future-Is-remote.png" alt="banner"  style="width:1100px;height:200px" />
 </p>
 
-# Welcome to the Remote Work Web App
+## Welcome to the Work Nomads Jobeng
 
 Description:
 
@@ -15,7 +16,7 @@ Our aim is to provides job seekers with the tools they need to prepare for inter
 At the same time, making the recruiting process easy for recruiters, no matter where they are located.
 Whether you're a recruiter looking to expand your team or a job seeker looking for your next opportunity, Jobeng is the place to be.
 
-Pushing the normady workforce to work harder and achieve more
+> * Pushing the nomady workforce to work harder and achieve more
 
 ## How to contribute:
 

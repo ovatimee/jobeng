@@ -21,7 +21,7 @@ export default function Hero() {
               </p>
               <div className="button">
                 <Link href="/jobs" className="dark_a button_a">
-                  Post a Job
+                  Find Job
                 </Link>
               </div>
               <div className="start-meeting flex mt-12 self-center text-right">

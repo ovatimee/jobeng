@@ -45,7 +45,7 @@ You can spin up the project using **Docker** with `docker-compose up`.
 
 ## Motivation
 
-The traditional way of working and searching for jobs can be a real grind. Endless hours of commuting, rigid schedules, and the pressure to be available 24/7 can quickly wear you out. 
+The traditional way of working and searching for jobs can be a real grind. Endless hours of commuting and rigid schedules.
 As someone who has experienced this firsthand, I know how frustrating it can be to waste so much time looking for the right opportunity.
 That's why I was inspired to create a solution that would make the process of finding a job and managing a career easier and more efficient.
 

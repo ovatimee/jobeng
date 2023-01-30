@@ -2,6 +2,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 import React, { useState } from "react";
 import Animate from "../../utils/animate";
 import { Testimony } from "../../interfaces/Jobs";
+import Image from "next/image";
 
 interface Testimonies {
   testimonies: Testimony[];
@@ -24,8 +25,11 @@ export default function Testimonials({ testimonies }: Testimonies) {
         <Animate className="gridel grid__text up animate max-w-[480px] m-auto flex-row gap-0 pl-0">
           <div className="half ">
             <div className="pic bg-[#c8d6e5] relative min-h-[250px] rounded-[70px] mb-4 overflow-hidden">
-              <img
+              <Image
                 src={`/images/${testimonies[currentIndex].image}`}
+                // src={`https://i.postimg.cc/g0sQcxKP/${testimonies[currentIndex].image}`}
+                height={320}
+                width={240}
                 alt=""
                 className="absolute left-0 bottom-0 object-cover w-full h-full"
               />

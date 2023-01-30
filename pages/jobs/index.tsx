@@ -57,9 +57,6 @@ const Jobs = ({ rows, page, count }: Props) => {
       </div>
       <div className="pagination flex items-center mt-4">
         <div className="ml-auto flex items-center gap-2 px-8  text-xs">
-          <button type="button" disabled={page == 1} className="border-none outline-none">
-            <BackwardIcon className="w-4 h-4" />
-          </button>
           <button
             type="button"
             disabled={page == 1}
@@ -71,9 +68,6 @@ const Jobs = ({ rows, page, count }: Props) => {
           <Pagination totalItems={count} currentPage={page} />
           <button type="button" onClick={handleNextPage}>
             <ChevronRightIcon className="w-4 h-4" />
-          </button>
-          <button>
-            <ForwardIcon className="w-4 h-4" />
           </button>
         </div>
       </div>

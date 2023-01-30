@@ -1,4 +1,6 @@
-[![Banner](https://i.postimg.cc/fyySTx63/The-Future-Is-remote.png)](https://jobeng.vercel.com)
+<p align="center">
+[![Banner](https://i.postimg.cc/fyySTx63/The-Future-Is-remote.png) =250x300](https://jobeng.vercel.com)
+</p>
 
 # Welcome to the Remote Work Web App
 

@@ -1,4 +1,5 @@
 import { AdjustmentsVerticalIcon, EllipsisVerticalIcon, MoonIcon } from "@heroicons/react/24/solid";
+import { useSession } from "next-auth/react";
 import Link from "next/link";
 
 interface Props {
@@ -7,6 +8,9 @@ interface Props {
 }
 
 export default function Header({ home, user }: Props) {
+  const { data: session, status } = useSession();
+  console.log(session, status)
+
   return (
     <div className="leading-[90px] md:leading-[130px] flex items-center flex-shrink-0 px-10 whitespace-nowrap bg-header-bg-color  w-full text-[14px] justify-between mx-auto max-sm:py-0 max-sm:px-5">
       <div className="logo flex flex-col items-center font-semibold text-xs cursor-pointer w-16">
@@ -43,18 +47,18 @@ export default function Header({ home, user }: Props) {
         <div className="ml-3 md:hidden">
           <EllipsisVerticalIcon className="w-6 h-6" />
         </div>
-        {user ? (
+        {session ? (
           <div className="mx-4 hidden md:flex items-center">
             <img
               className="user-profile w-9 rounded-full mr-2 text-active-color max-xl:mr-0"
-              src="/images/avarter.jpg"
+              src={session.user?.image || "/images/avarter.jpg"}
               alt=""
             />
-            <div className="user-name">Jason Clinton</div>
+            <div className="user-name">{session.user.name}</div>
           </div>
         ) : (
           <div className="button hidden md:inline-block">
-            <Link href="/jobs" className="dark_a button_a">
+            <Link href="/api/auth/signin" className="dark_a button_a">
               Join
             </Link>
           </div>

@@ -2,14 +2,9 @@ import { AdjustmentsVerticalIcon, EllipsisVerticalIcon, MoonIcon } from "@heroic
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 
-interface Props {
-  home?: string;
-  user?: boolean;
-}
 
-export default function Header({ home, user }: Props) {
+export default function Header() {
   const { data: session, status } = useSession();
-  console.log(session, status)
 
   return (
     <div className="leading-[90px] md:leading-[130px] flex items-center flex-shrink-0 px-10 whitespace-nowrap bg-header-bg-color  w-full text-[14px] justify-between mx-auto max-sm:py-0 max-sm:px-5">
@@ -41,9 +36,9 @@ export default function Header({ home, user }: Props) {
         </a>
       </div>
       <div className=" flex items-center font-medium">
-        <div className="dark-light">
-          <MoonIcon className="w-6 h-6 text-gray-200" />
-        </div>
+        {/* <div className="dark-light"> */}
+        {/*   <MoonIcon className="w-6 h-6 text-gray-200" /> */}
+        {/* </div> */}
         <div className="ml-3 md:hidden">
           <EllipsisVerticalIcon className="w-6 h-6" />
         </div>
@@ -54,11 +49,11 @@ export default function Header({ home, user }: Props) {
               src={session.user?.image || "/images/avarter.jpg"}
               alt=""
             />
-            <div className="user-name">{session.user.name}</div>
+            <div className="user-name">{session.user?.name}</div>
           </div>
         ) : (
-          <div className="button hidden md:inline-block">
-            <Link href="/api/auth/signin" className="dark_a button_a">
+          <div className="button hidden md:inline-block text-active-color ">
+            <Link href="/api/auth/signin" className=" button_a font-medium underline text-xl">
               Join
             </Link>
           </div>

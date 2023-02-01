@@ -4,6 +4,7 @@ import { useSession } from "next-auth/react";
 import { GetServerSideProps } from "next";
 import Icon from "../../utils/icon";
 import { UserIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 interface Provider {
   name: string;
@@ -23,16 +24,56 @@ const SignIn: React.FC<Props> = ({ providers }) => {
     setCredentials((p) => ({ ...p, [name]: value }));
   }
 
-  console.log(credentials)
 
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
       <div className="max-w-screen-xl m-0 sm:m-20 bg-white shadow sm:rounded-lg flex justify-center flex-1">
         <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
-          <div>
-            <span className="w-32 mx-auto">Jobeng</span>
-            <button onClick={() => signOut()}>Signout</button>
-          </div>
+          <Link href="/" className="mx-auto">
+            <span className="w-20 flex items-center text-xl font-bold text-active-color">
+              Jobeng
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="-267.2639991760254 -3605.504141235351 5174.2720703125 4129.7921539306635"
+                className="w-20"
+              >
+                <defs></defs>
+                <g>
+                  <g transform="matrix(33.806,0,0,33.806,629.5705,-3878.0776)">
+                    <polygon
+                      fill="none"
+                      stroke="#0162ff"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                      points="  50.75,25.659 9.085,74.342 5,74.68 5,82.85 33.245,82.85 33.245,75.701 50.75,56.98 66.747,75.701 66.747,82.85 95,82.85 95,74.68   90.915,74.342 "
+                    ></polygon>
+                    <path
+                      fill="none"
+                      stroke="#0162ff"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                      d="  M70.354,49.424"
+                    ></path>
+                    <polyline
+                      fill="none"
+                      stroke="#0162ff"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                      points="  70.354,49.424 70.354,25.659 67.091,25.659 67.091,17.15 90.915,17.15 90.915,25.659 87.516,25.659 87.484,70.181 "
+                    ></polyline>
+                    <defs></defs>
+                  </g>
+                </g>
+              </svg>
+            </span>
+          </Link>
           <div className="mt-12 flex flex-col items-center">
             <h1 className="text-2xl xl:text-3xl font-extrabold">Join JobEng</h1>
             <div className="w-full flex-1 mt-8">
@@ -67,7 +108,7 @@ const SignIn: React.FC<Props> = ({ providers }) => {
                   type="email"
                   placeholder="Email"
                   name="email"
-                  value={credentials.name}
+                  value={credentials.email}
                   onChange={(e) => handleChange(e)}
                 />
                 <input
@@ -115,7 +156,6 @@ const SignIn: React.FC<Props> = ({ providers }) => {
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const providers = await getProviders();
-  // console.log(providers)
 
   return {
     props: { providers },

@@ -56,3 +56,11 @@ Whether you are a developer, designer, or simply passionate about remote work, I
 Together, we can create a platform that will revolutionize the way we work and live.
 
 ## Future Goals
+
+<!-- ApeGeeks
+Should organize meetups for ape geeks to promote themselves, being it startups or candidates looking for jobs or recruiters.
+Should set up an automated bot to post social media campaigns 
+guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+,sm:block-blinkwait175-blinkoff150-blinkon175
+-->

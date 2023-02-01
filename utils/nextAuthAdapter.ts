@@ -1,6 +1,28 @@
 import type { Adapter } from "next-auth/adapters";
+import { PoolClient } from "pg";
 
-export default function PostgresAdapter(client, options = {}): Adapter {
+export interface Session {
+    user: WithAdditionalParams<User>;
+    accessToken?: string;
+    expires: string;
+}
+
+export type WithAdditionalParams<T extends Record<string, any>> = T & Record<string, unknown>;
+
+export interface User {
+    name?: string | null;
+    email?: string | null;
+    image?: string | null;
+}
+
+interface RETURNING {
+  sessionToken: string;
+  session: any;
+  user: any;
+}
+
+function PostgresAdapter(client: PoolClient, options = {}): Adapter {
+  //ts-ignore
   return {
     async createUser(user) {
       // console.log(user)
@@ -22,7 +44,7 @@ export default function PostgresAdapter(client, options = {}): Adapter {
       }
     },
     async getUser(id) {
-      console.log(id)
+      console.log(id);
       try {
         const sql = `select * from users where id = $1`;
         let result = await client.query(sql, [id]);
@@ -59,6 +81,7 @@ export default function PostgresAdapter(client, options = {}): Adapter {
     },
     async updateUser(user) {
       try {
+        return user as any;
       } catch (err) {
         console.log(err);
         return;
@@ -95,6 +118,7 @@ export default function PostgresAdapter(client, options = {}): Adapter {
         return;
       }
     },
+    // @ts-ignore
     async createSession({ sessionToken, userId, expires }) {
       try {
         const sql = `insert into sessions (user_id, expires, session_token) values ($1, $2, $3)`;
@@ -105,6 +129,8 @@ export default function PostgresAdapter(client, options = {}): Adapter {
         return;
       }
     },
+
+    // @ts-ignore
     async getSessionAndUser(sessionToken) {
       try {
         let result;
@@ -118,9 +144,10 @@ export default function PostgresAdapter(client, options = {}): Adapter {
         let user = result.rows[0];
 
         return {
+          sessionToken,
           session,
           user,
-        };
+        } as RETURNING;
       } catch (err) {
         console.log("get seesion under user", err);
         return;
@@ -128,7 +155,7 @@ export default function PostgresAdapter(client, options = {}): Adapter {
     },
     async updateSession({ sessionToken }) {
       console.log("updateSession", sessionToken);
-      return;
+      return sessionToken as any;
     },
     async deleteSession(sessionToken) {
       try {
@@ -142,7 +169,7 @@ export default function PostgresAdapter(client, options = {}): Adapter {
     async createVerificationToken({ identifier, expires, token }) {
       try {
         const token = "Token";
-        return token;
+        return token as any;
       } catch (error) {
         console.log("createVerification session", error);
         return;
@@ -151,7 +178,7 @@ export default function PostgresAdapter(client, options = {}): Adapter {
     async useVerificationToken({ identifier, token }) {
       try {
         const token = "Token";
-        return token;
+        return token as any;
       } catch (error) {
         console.log("userverification session", error);
         return error;
@@ -159,3 +186,5 @@ export default function PostgresAdapter(client, options = {}): Adapter {
     },
   };
 }
+
+export default PostgresAdapter;

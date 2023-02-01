@@ -53,7 +53,7 @@ export default function Header() {
           </div>
         ) : (
           <div className="button hidden md:inline-block text-active-color ">
-            <Link href="/api/auth/signin" className=" button_a font-medium underline text-xl">
+            <Link href="/api/auth/signin" className=" button_a font-medium underline dark_a">
               Join
             </Link>
           </div>
